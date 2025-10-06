@@ -1,21 +1,28 @@
-from .create_space import CreateSpace
-from .update_space import UpdateSpace
-from .delete_space import DeleteSpace
-from .get_space_by_key import GetSpaceByKey
-from .get_space_by_id import GetSpaceById
-from .list_spaces import ListSpaces
-from .approve_space import ApproveSpace
-from .unapprove_space import UnapproveSpace
-from .add_user_to_space import AddUserToSpace
-from .remove_user_from_space import RemoveUserFromSpace
-from .get_space_users import GetSpaceUsers
-from .get_user_spaces import GetUserSpaces
+from .interface_1 import (AddUserToSpace, ApproveSpace, CreateSpace,
+                          GetSpaceById, GetSpaceByKey, GetSpaceUsers,
+                          GetUserSpaces, ListSpaces, RemoveUserFromSpace,
+                          UnapproveSpace, UpdateSpace)
+from .interface_2 import (AssignUserToSpace, AuthorizeSpace, EnumerateSpaces,
+                          EstablishSpace, FetchSpaceByKey, FetchSpaceUsers,
+                          ModifySpace, RetrieveSpaceById, RetrieveUserSpaces,
+                          UnassignUserFromSpace, UnauthorizeSpace)
+from .interface_3 import (AcquireSpaceById, AcquireUserSpaces,
+                          AttachUserToSpace, CatalogSpaces,
+                          DetachUserFromSpace, InitiateSpace, InvalidateSpace,
+                          ObtainSpaceByKey, ObtainSpaceUsers, ReviseSpace,
+                          ValidateSpace)
+from .interface_4 import (ConfirmSpace, DisplaySpaces, EditSpace,
+                          ExcludeUserFromSpace, FindSpaceById, FindUserSpaces,
+                          GenerateSpace, IncludeUserInSpace, LookupSpaceByKey,
+                          LookupSpaceUsers, RejectSpace)
+from .interface_5 import (AlterSpace, BuildSpace, CertifySpace, DecertifySpace,
+                          DeregisterUserFromSpace, LocateSpaceById,
+                          LocateUserSpaces, QuerySpaceByKey, QuerySpaceUsers,
+                          RegisterUserToSpace, ShowSpaces)
 
-
-ALL_SPACE_TOOLS = [
+__all__ = [
     CreateSpace,
     UpdateSpace,
-    DeleteSpace,
     GetSpaceByKey,
     GetSpaceById,
     ListSpaces,
@@ -24,5 +31,49 @@ ALL_SPACE_TOOLS = [
     AddUserToSpace,
     RemoveUserFromSpace,
     GetSpaceUsers,
-    GetUserSpaces
+    GetUserSpaces,
+    EstablishSpace,
+    ModifySpace,
+    FetchSpaceByKey,
+    RetrieveSpaceById,
+    EnumerateSpaces,
+    AuthorizeSpace,
+    UnauthorizeSpace,
+    AssignUserToSpace,
+    UnassignUserFromSpace,
+    FetchSpaceUsers,
+    RetrieveUserSpaces,
+    InitiateSpace,
+    ReviseSpace,
+    ObtainSpaceByKey,
+    AcquireSpaceById,
+    CatalogSpaces,
+    ValidateSpace,
+    InvalidateSpace,
+    AttachUserToSpace,
+    DetachUserFromSpace,
+    ObtainSpaceUsers,
+    AcquireUserSpaces,
+    GenerateSpace,
+    EditSpace,
+    LookupSpaceByKey,
+    FindSpaceById,
+    DisplaySpaces,
+    ConfirmSpace,
+    RejectSpace,
+    IncludeUserInSpace,
+    ExcludeUserFromSpace,
+    LookupSpaceUsers,
+    FindUserSpaces,
+    BuildSpace,
+    AlterSpace,
+    QuerySpaceByKey,
+    LocateSpaceById,
+    ShowSpaces,
+    CertifySpace,
+    DecertifySpace,
+    RegisterUserToSpace,
+    DeregisterUserFromSpace,
+    QuerySpaceUsers,
+    LocateUserSpaces,
 ]

@@ -1,7 +1,9 @@
-import json
 import datetime
+import json
 from typing import Any, Dict
+
 from envs.tool import Tool
+
 
 class RemoveUserFromSpace(Tool):
     @staticmethod
@@ -9,32 +11,33 @@ class RemoveUserFromSpace(Tool):
         spaces = data.get("spaces", {})
         users = data.get("users", {})
         space_users = data.get("space_users", {})
-        
+
         if space_id not in spaces:
             raise ValueError("Space not found")
-        
+
         if user_id not in users:
             raise ValueError("User not found")
-        
+
         space_user_id = None
         space_user = None
         for su_id, su in space_users.items():
-            if (su.get("space_id") == int(space_id) and 
-                su.get("user_id") == int(user_id)):
+            if su.get("space_id") == int(space_id) and su.get("user_id") == int(
+                user_id
+            ):
                 space_user_id = su_id
                 space_user = su
                 break
-        
+
         if space_user_id is None:
             raise ValueError(f"User {user_id} is not in space {space_id}")
-        
+
         removed_space_user = space_users.pop(space_user_id)
-        
+
         result = {
             **removed_space_user,
-            "removed_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            "removed_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         }
-        
+
         return json.dumps(result)
 
     @staticmethod
@@ -49,14 +52,14 @@ class RemoveUserFromSpace(Tool):
                     "properties": {
                         "space_id": {
                             "type": "string",
-                            "description": "The ID of the space"
+                            "description": "The ID of the space",
                         },
                         "user_id": {
                             "type": "string",
-                            "description": "The ID of the user"
-                        }
+                            "description": "The ID of the user",
+                        },
                     },
-                    "required": ["space_id", "user_id"]
-                }
-            }
+                    "required": ["space_id", "user_id"],
+                },
+            },
         }
