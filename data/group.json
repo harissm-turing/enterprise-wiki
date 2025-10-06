@@ -1,0 +1,4004 @@
+[
+  {
+    "id": 1,
+    "name": "Super Administrators",
+    "description": "Full system access with all permissions",
+    "permissions": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+    ],
+    "created_at": "2024-01-01T08:00:00Z",
+    "updated_at": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "System Administrators",
+    "description": "System management and configuration access",
+    "permissions": [2, 3, 5, 11, 12, 15, 17, 18],
+    "created_at": "2024-01-01T08:15:00Z",
+    "updated_at": "2024-03-15T10:30:00Z"
+  },
+  {
+    "id": 3,
+    "name": "User Managers",
+    "description": "Manage user accounts and profiles",
+    "permissions": [1, 2, 3, 5, 6, 7, 8],
+    "created_at": "2024-01-01T08:30:00Z",
+    "updated_at": "2024-01-01T08:30:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Content Editors",
+    "description": "Create and edit content",
+    "permissions": [21, 22, 23, 25, 26],
+    "created_at": "2024-01-01T08:45:00Z",
+    "updated_at": "2024-02-20T14:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Content Moderators",
+    "description": "Moderate and review content",
+    "permissions": [22, 23, 25, 27, 28],
+    "created_at": "2024-01-01T09:00:00Z",
+    "updated_at": "2024-01-01T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Sales Team",
+    "description": "Sales department access",
+    "permissions": [31, 32, 33, 35, 36, 37],
+    "created_at": "2024-01-01T09:15:00Z",
+    "updated_at": "2024-04-10T11:45:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Marketing Team",
+    "description": "Marketing department access",
+    "permissions": [41, 42, 43, 44, 45],
+    "created_at": "2024-01-01T09:30:00Z",
+    "updated_at": "2024-01-01T09:30:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Finance Team",
+    "description": "Financial operations access",
+    "permissions": [51, 52, 53, 54, 55, 56],
+    "created_at": "2024-01-01T09:45:00Z",
+    "updated_at": "2024-05-12T09:20:00Z"
+  },
+  {
+    "id": 9,
+    "name": "HR Department",
+    "description": "Human resources management",
+    "permissions": [1, 2, 3, 5, 8, 61, 62],
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-01-01T10:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Customer Support",
+    "description": "Customer service and support",
+    "permissions": [71, 72, 73, 74, 75],
+    "created_at": "2024-01-01T10:15:00Z",
+    "updated_at": "2024-06-08T15:30:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Developers",
+    "description": "Development team access",
+    "permissions": [81, 82, 83, 84, 85, 86],
+    "created_at": "2024-01-01T10:30:00Z",
+    "updated_at": "2024-01-01T10:30:00Z"
+  },
+  {
+    "id": 12,
+    "name": "QA Team",
+    "description": "Quality assurance testing",
+    "permissions": [82, 85, 91, 92, 93],
+    "created_at": "2024-01-01T10:45:00Z",
+    "updated_at": "2024-07-15T12:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "DevOps",
+    "description": "Development operations team",
+    "permissions": [81, 82, 84, 101, 102, 103],
+    "created_at": "2024-01-01T11:00:00Z",
+    "updated_at": "2024-01-01T11:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Product Managers",
+    "description": "Product management team",
+    "permissions": [111, 112, 113, 114, 115],
+    "created_at": "2024-01-01T11:15:00Z",
+    "updated_at": "2024-08-20T10:15:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Analysts",
+    "description": "Data and business analysts",
+    "permissions": [121, 122, 123, 124, 125],
+    "created_at": "2024-01-01T11:30:00Z",
+    "updated_at": "2024-01-01T11:30:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Designers",
+    "description": "Design team access",
+    "permissions": [131, 132, 133, 134],
+    "created_at": "2024-01-01T11:45:00Z",
+    "updated_at": "2024-09-10T14:45:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Executives",
+    "description": "Executive leadership team",
+    "permissions": [2, 5, 12, 15, 122, 123, 141, 142],
+    "created_at": "2024-01-01T12:00:00Z",
+    "updated_at": "2024-01-01T12:00:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Legal Team",
+    "description": "Legal department access",
+    "permissions": [151, 152, 153, 154],
+    "created_at": "2024-01-01T12:15:00Z",
+    "updated_at": "2024-09-15T16:20:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Compliance Officers",
+    "description": "Compliance and regulatory access",
+    "permissions": [152, 153, 161, 162, 163],
+    "created_at": "2024-01-01T12:30:00Z",
+    "updated_at": "2024-01-01T12:30:00Z"
+  },
+  {
+    "id": 20,
+    "name": "Security Team",
+    "description": "Security operations team",
+    "permissions": [171, 172, 173, 174, 175],
+    "created_at": "2024-01-01T12:45:00Z",
+    "updated_at": "2024-09-20T11:30:00Z"
+  },
+  {
+    "id": 21,
+    "name": "Project Managers",
+    "description": "Project management access",
+    "permissions": [181, 182, 183, 184, 185],
+    "created_at": "2024-01-02T08:00:00Z",
+    "updated_at": "2024-01-02T08:00:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Scrum Masters",
+    "description": "Agile team facilitators",
+    "permissions": [181, 182, 183, 191, 192],
+    "created_at": "2024-01-02T08:30:00Z",
+    "updated_at": "2024-03-22T13:15:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Technical Writers",
+    "description": "Documentation team",
+    "permissions": [201, 202, 203, 204],
+    "created_at": "2024-01-02T09:00:00Z",
+    "updated_at": "2024-01-02T09:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Training Team",
+    "description": "Employee training and development",
+    "permissions": [211, 212, 213, 214],
+    "created_at": "2024-01-02T09:30:00Z",
+    "updated_at": "2024-04-18T15:45:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Procurement",
+    "description": "Purchasing and procurement",
+    "permissions": [221, 222, 223, 224],
+    "created_at": "2024-01-02T10:00:00Z",
+    "updated_at": "2024-01-02T10:00:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Operations Team",
+    "description": "Business operations",
+    "permissions": [231, 232, 233, 234],
+    "created_at": "2024-01-02T10:30:00Z",
+    "updated_at": "2024-05-25T09:30:00Z"
+  },
+  {
+    "id": 27,
+    "name": "Logistics",
+    "description": "Shipping and logistics",
+    "permissions": [241, 242, 243, 244],
+    "created_at": "2024-01-02T11:00:00Z",
+    "updated_at": "2024-01-02T11:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Warehouse Staff",
+    "description": "Warehouse operations",
+    "permissions": [242, 243, 251, 252],
+    "created_at": "2024-01-02T11:30:00Z",
+    "updated_at": "2024-06-30T12:20:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Inventory Managers",
+    "description": "Inventory management",
+    "permissions": [251, 252, 253, 254],
+    "created_at": "2024-01-02T12:00:00Z",
+    "updated_at": "2024-01-02T12:00:00Z"
+  },
+  {
+    "id": 30,
+    "name": "Accountants",
+    "description": "Accounting team",
+    "permissions": [51, 52, 53, 261, 262],
+    "created_at": "2024-01-02T12:30:00Z",
+    "updated_at": "2024-07-12T14:45:00Z"
+  },
+  {
+    "id": 31,
+    "name": "Auditors",
+    "description": "Internal audit team",
+    "permissions": [52, 53, 261, 271, 272],
+    "created_at": "2024-01-02T13:00:00Z",
+    "updated_at": "2024-01-02T13:00:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Payroll Specialists",
+    "description": "Payroll processing",
+    "permissions": [281, 282, 283, 284],
+    "created_at": "2024-01-02T13:30:00Z",
+    "updated_at": "2024-08-05T10:15:00Z"
+  },
+  {
+    "id": 33,
+    "name": "Benefits Administrators",
+    "description": "Employee benefits management",
+    "permissions": [291, 292, 293, 294],
+    "created_at": "2024-01-02T14:00:00Z",
+    "updated_at": "2024-01-02T14:00:00Z"
+  },
+  {
+    "id": 34,
+    "name": "Recruiters",
+    "description": "Talent acquisition team",
+    "permissions": [1, 301, 302, 303],
+    "created_at": "2024-01-02T14:30:00Z",
+    "updated_at": "2024-09-08T16:30:00Z"
+  },
+  {
+    "id": 35,
+    "name": "Facilities Management",
+    "description": "Building and facilities",
+    "permissions": [311, 312, 313, 314],
+    "created_at": "2024-01-02T15:00:00Z",
+    "updated_at": "2024-01-02T15:00:00Z"
+  },
+  {
+    "id": 36,
+    "name": "IT Support",
+    "description": "Technical support team",
+    "permissions": [321, 322, 323, 324],
+    "created_at": "2024-01-02T15:30:00Z",
+    "updated_at": "2024-09-14T11:20:00Z"
+  },
+  {
+    "id": 37,
+    "name": "Network Administrators",
+    "description": "Network infrastructure management",
+    "permissions": [331, 332, 333, 334],
+    "created_at": "2024-01-02T16:00:00Z",
+    "updated_at": "2024-01-02T16:00:00Z"
+  },
+  {
+    "id": 38,
+    "name": "Database Administrators",
+    "description": "Database management",
+    "permissions": [341, 342, 343, 344],
+    "created_at": "2024-01-02T16:30:00Z",
+    "updated_at": "2024-09-19T13:45:00Z"
+  },
+  {
+    "id": 39,
+    "name": "Cloud Engineers",
+    "description": "Cloud infrastructure team",
+    "permissions": [351, 352, 353, 354],
+    "created_at": "2024-01-03T08:00:00Z",
+    "updated_at": "2024-01-03T08:00:00Z"
+  },
+  {
+    "id": 40,
+    "name": "API Developers",
+    "description": "API development team",
+    "permissions": [81, 82, 361, 362],
+    "created_at": "2024-01-03T08:30:00Z",
+    "updated_at": "2024-09-23T15:00:00Z"
+  },
+  {
+    "id": 41,
+    "name": "Frontend Developers",
+    "description": "Frontend development team",
+    "permissions": [81, 82, 371, 372],
+    "created_at": "2024-01-03T09:00:00Z",
+    "updated_at": "2024-01-03T09:00:00Z"
+  },
+  {
+    "id": 42,
+    "name": "Backend Developers",
+    "description": "Backend development team",
+    "permissions": [81, 82, 381, 382],
+    "created_at": "2024-01-03T09:30:00Z",
+    "updated_at": "2024-03-28T10:30:00Z"
+  },
+  {
+    "id": 43,
+    "name": "Mobile Developers",
+    "description": "Mobile app development",
+    "permissions": [81, 82, 391, 392],
+    "created_at": "2024-01-03T10:00:00Z",
+    "updated_at": "2024-01-03T10:00:00Z"
+  },
+  {
+    "id": 44,
+    "name": "UX Researchers",
+    "description": "User experience research",
+    "permissions": [401, 402, 403, 404],
+    "created_at": "2024-01-03T10:30:00Z",
+    "updated_at": "2024-04-15T12:45:00Z"
+  },
+  {
+    "id": 45,
+    "name": "UI Designers",
+    "description": "User interface design",
+    "permissions": [131, 132, 411, 412],
+    "created_at": "2024-01-03T11:00:00Z",
+    "updated_at": "2024-01-03T11:00:00Z"
+  },
+  {
+    "id": 46,
+    "name": "Brand Managers",
+    "description": "Brand management team",
+    "permissions": [41, 42, 421, 422],
+    "created_at": "2024-01-03T11:30:00Z",
+    "updated_at": "2024-05-20T14:15:00Z"
+  },
+  {
+    "id": 47,
+    "name": "Social Media Team",
+    "description": "Social media management",
+    "permissions": [431, 432, 433, 434],
+    "created_at": "2024-01-03T12:00:00Z",
+    "updated_at": "2024-01-03T12:00:00Z"
+  },
+  {
+    "id": 48,
+    "name": "Content Strategists",
+    "description": "Content strategy and planning",
+    "permissions": [21, 22, 441, 442],
+    "created_at": "2024-01-03T12:30:00Z",
+    "updated_at": "2024-06-25T16:30:00Z"
+  },
+  {
+    "id": 49,
+    "name": "SEO Specialists",
+    "description": "Search engine optimization",
+    "permissions": [451, 452, 453, 454],
+    "created_at": "2024-01-03T13:00:00Z",
+    "updated_at": "2024-01-03T13:00:00Z"
+  },
+  {
+    "id": 50,
+    "name": "Email Marketing",
+    "description": "Email campaign management",
+    "permissions": [461, 462, 463, 464],
+    "created_at": "2024-01-03T13:30:00Z",
+    "updated_at": "2024-07-18T09:45:00Z"
+  },
+  {
+    "id": 51,
+    "name": "Campaign Managers",
+    "description": "Marketing campaign management",
+    "permissions": [41, 42, 461, 471],
+    "created_at": "2024-01-03T14:00:00Z",
+    "updated_at": "2024-01-03T14:00:00Z"
+  },
+  {
+    "id": 52,
+    "name": "Event Coordinators",
+    "description": "Event planning and coordination",
+    "permissions": [481, 482, 483, 484],
+    "created_at": "2024-01-03T14:30:00Z",
+    "updated_at": "2024-08-22T11:15:00Z"
+  },
+  {
+    "id": 53,
+    "name": "Public Relations",
+    "description": "PR and communications",
+    "permissions": [491, 492, 493, 494],
+    "created_at": "2024-01-03T15:00:00Z",
+    "updated_at": "2024-01-03T15:00:00Z"
+  },
+  {
+    "id": 54,
+    "name": "Customer Success",
+    "description": "Customer success team",
+    "permissions": [71, 72, 73, 501, 502],
+    "created_at": "2024-01-03T15:30:00Z",
+    "updated_at": "2024-09-05T13:30:00Z"
+  },
+  {
+    "id": 55,
+    "name": "Account Managers",
+    "description": "Client account management",
+    "permissions": [31, 32, 511, 512],
+    "created_at": "2024-01-03T16:00:00Z",
+    "updated_at": "2024-01-03T16:00:00Z"
+  },
+  {
+    "id": 56,
+    "name": "Sales Development",
+    "description": "Sales development representatives",
+    "permissions": [31, 32, 521, 522],
+    "created_at": "2024-01-03T16:30:00Z",
+    "updated_at": "2024-02-14T15:20:00Z"
+  },
+  {
+    "id": 57,
+    "name": "Business Development",
+    "description": "Business development team",
+    "permissions": [531, 532, 533, 534],
+    "created_at": "2024-01-04T08:00:00Z",
+    "updated_at": "2024-01-04T08:00:00Z"
+  },
+  {
+    "id": 58,
+    "name": "Partnership Team",
+    "description": "Strategic partnerships",
+    "permissions": [541, 542, 543, 544],
+    "created_at": "2024-01-04T08:30:00Z",
+    "updated_at": "2024-03-10T10:45:00Z"
+  },
+  {
+    "id": 59,
+    "name": "Revenue Operations",
+    "description": "Revenue operations team",
+    "permissions": [31, 32, 51, 52],
+    "created_at": "2024-01-04T09:00:00Z",
+    "updated_at": "2024-01-04T09:00:00Z"
+  },
+  {
+    "id": 60,
+    "name": "Customer Insights",
+    "description": "Customer research and insights",
+    "permissions": [121, 122, 401, 402],
+    "created_at": "2024-01-04T09:30:00Z",
+    "updated_at": "2024-04-08T12:30:00Z"
+  },
+  {
+    "id": 61,
+    "name": "Market Research",
+    "description": "Market research team",
+    "permissions": [121, 122, 551, 552],
+    "created_at": "2024-01-04T10:00:00Z",
+    "updated_at": "2024-01-04T10:00:00Z"
+  },
+  {
+    "id": 62,
+    "name": "Competitive Intelligence",
+    "description": "Competitive analysis team",
+    "permissions": [122, 551, 561, 562],
+    "created_at": "2024-01-04T10:30:00Z",
+    "updated_at": "2024-05-15T14:00:00Z"
+  },
+  {
+    "id": 63,
+    "name": "Pricing Team",
+    "description": "Pricing strategy team",
+    "permissions": [571, 572, 573, 574],
+    "created_at": "2024-01-04T11:00:00Z",
+    "updated_at": "2024-01-04T11:00:00Z"
+  },
+  {
+    "id": 64,
+    "name": "Risk Management",
+    "description": "Risk assessment and management",
+    "permissions": [581, 582, 583, 584],
+    "created_at": "2024-01-04T11:30:00Z",
+    "updated_at": "2024-06-20T16:15:00Z"
+  },
+  {
+    "id": 65,
+    "name": "Treasury",
+    "description": "Treasury operations",
+    "permissions": [51, 52, 591, 592],
+    "created_at": "2024-01-04T12:00:00Z",
+    "updated_at": "2024-01-04T12:00:00Z"
+  },
+  {
+    "id": 66,
+    "name": "Tax Team",
+    "description": "Tax planning and compliance",
+    "permissions": [601, 602, 603, 604],
+    "created_at": "2024-01-04T12:30:00Z",
+    "updated_at": "2024-07-25T09:30:00Z"
+  },
+  {
+    "id": 67,
+    "name": "Financial Planning",
+    "description": "Financial planning and analysis",
+    "permissions": [51, 52, 121, 122],
+    "created_at": "2024-01-04T13:00:00Z",
+    "updated_at": "2024-01-04T13:00:00Z"
+  },
+  {
+    "id": 68,
+    "name": "Investor Relations",
+    "description": "Investor communications",
+    "permissions": [611, 612, 613, 614],
+    "created_at": "2024-01-04T13:30:00Z",
+    "updated_at": "2024-08-12T11:45:00Z"
+  },
+  {
+    "id": 69,
+    "name": "Corporate Strategy",
+    "description": "Strategic planning team",
+    "permissions": [141, 142, 621, 622],
+    "created_at": "2024-01-04T14:00:00Z",
+    "updated_at": "2024-01-04T14:00:00Z"
+  },
+  {
+    "id": 70,
+    "name": "Mergers & Acquisitions",
+    "description": "M&A team",
+    "permissions": [631, 632, 633, 634],
+    "created_at": "2024-01-04T14:30:00Z",
+    "updated_at": "2024-09-18T13:20:00Z"
+  },
+  {
+    "id": 71,
+    "name": "Innovation Team",
+    "description": "Innovation and R&D",
+    "permissions": [641, 642, 643, 644],
+    "created_at": "2024-01-04T15:00:00Z",
+    "updated_at": "2024-01-04T15:00:00Z"
+  },
+  {
+    "id": 72,
+    "name": "Research Scientists",
+    "description": "Scientific research team",
+    "permissions": [651, 652, 653, 654],
+    "created_at": "2024-01-04T15:30:00Z",
+    "updated_at": "2024-02-28T10:15:00Z"
+  },
+  {
+    "id": 73,
+    "name": "Lab Technicians",
+    "description": "Laboratory operations",
+    "permissions": [652, 653, 661, 662],
+    "created_at": "2024-01-04T16:00:00Z",
+    "updated_at": "2024-01-04T16:00:00Z"
+  },
+  {
+    "id": 74,
+    "name": "Clinical Team",
+    "description": "Clinical operations",
+    "permissions": [671, 672, 673, 674],
+    "created_at": "2024-01-04T16:30:00Z",
+    "updated_at": "2024-03-20T12:45:00Z"
+  },
+  {
+    "id": 75,
+    "name": "Medical Affairs",
+    "description": "Medical affairs department",
+    "permissions": [681, 682, 683, 684],
+    "created_at": "2024-01-05T08:00:00Z",
+    "updated_at": "2024-01-05T08:00:00Z"
+  },
+  {
+    "id": 76,
+    "name": "Regulatory Affairs",
+    "description": "Regulatory compliance team",
+    "permissions": [161, 162, 691, 692],
+    "created_at": "2024-01-05T08:30:00Z",
+    "updated_at": "2024-04-25T14:30:00Z"
+  },
+  {
+    "id": 77,
+    "name": "Quality Assurance",
+    "description": "Quality assurance department",
+    "permissions": [91, 92, 93, 701],
+    "created_at": "2024-01-05T09:00:00Z",
+    "updated_at": "2024-01-05T09:00:00Z"
+  },
+  {
+    "id": 78,
+    "name": "Quality Control",
+    "description": "Quality control team",
+    "permissions": [711, 712, 713, 714],
+    "created_at": "2024-01-05T09:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 79,
+    "name": "Manufacturing",
+    "description": "Production and manufacturing",
+    "permissions": [721, 722, 723, 724],
+    "created_at": "2024-01-05T10:00:00Z",
+    "updated_at": "2024-01-05T10:00:00Z"
+  },
+  {
+    "id": 80,
+    "name": "Production Planning",
+    "description": "Production planning team",
+    "permissions": [722, 731, 732, 733],
+    "created_at": "2024-01-05T10:30:00Z",
+    "updated_at": "2024-06-15T09:15:00Z"
+  },
+  {
+    "id": 81,
+    "name": "Maintenance Team",
+    "description": "Equipment maintenance",
+    "permissions": [741, 742, 743, 744],
+    "created_at": "2024-01-05T11:00:00Z",
+    "updated_at": "2024-01-05T11:00:00Z"
+  },
+  {
+    "id": 82,
+    "name": "Engineering",
+    "description": "Engineering department",
+    "permissions": [751, 752, 753, 754],
+    "created_at": "2024-01-05T11:30:00Z",
+    "updated_at": "2024-07-22T11:30:00Z"
+  },
+  {
+    "id": 83,
+    "name": "Safety Team",
+    "description": "Workplace safety",
+    "permissions": [761, 762, 763, 764],
+    "created_at": "2024-01-05T12:00:00Z",
+    "updated_at": "2024-01-05T12:00:00Z"
+  },
+  {
+    "id": 84,
+    "name": "Environmental Team",
+    "description": "Environmental compliance",
+    "permissions": [771, 772, 773, 774],
+    "created_at": "2024-01-05T12:30:00Z",
+    "updated_at": "2024-08-28T13:45:00Z"
+  },
+  {
+    "id": 85,
+    "name": "Sustainability",
+    "description": "Sustainability initiatives",
+    "permissions": [771, 772, 781, 782],
+    "created_at": "2024-01-05T13:00:00Z",
+    "updated_at": "2024-01-05T13:00:00Z"
+  },
+  {
+    "id": 86,
+    "name": "Supply Chain",
+    "description": "Supply chain management",
+    "permissions": [221, 222, 241, 242],
+    "created_at": "2024-01-05T13:30:00Z",
+    "updated_at": "2024-09-12T15:20:00Z"
+  },
+  {
+    "id": 87,
+    "name": "Vendor Management",
+    "description": "Vendor relations team",
+    "permissions": [791, 792, 793, 794],
+    "created_at": "2024-01-05T14:00:00Z",
+    "updated_at": "2024-01-05T14:00:00Z"
+  },
+  {
+    "id": 88,
+    "name": "Contract Management",
+    "description": "Contract administration",
+    "permissions": [801, 802, 803, 804],
+    "created_at": "2024-01-05T14:30:00Z",
+    "updated_at": "2024-02-18T10:45:00Z"
+  },
+  {
+    "id": 89,
+    "name": "Legal Operations",
+    "description": "Legal ops team",
+    "permissions": [151, 152, 801, 802],
+    "created_at": "2024-01-05T15:00:00Z",
+    "updated_at": "2024-01-05T15:00:00Z"
+  },
+  {
+    "id": 90,
+    "name": "Intellectual Property",
+    "description": "IP management",
+    "permissions": [811, 812, 813, 814],
+    "created_at": "2024-01-05T15:30:00Z",
+    "updated_at": "2024-03-25T12:30:00Z"
+  },
+  {
+    "id": 91,
+    "name": "Data Science",
+    "description": "Data science team",
+    "permissions": [121, 122, 821, 822],
+    "created_at": "2024-01-05T16:00:00Z",
+    "updated_at": "2024-01-05T16:00:00Z"
+  },
+  {
+    "id": 92,
+    "name": "Machine Learning",
+    "description": "ML engineering team",
+    "permissions": [81, 821, 831, 832],
+    "created_at": "2024-01-05T16:30:00Z",
+    "updated_at": "2024-04-30T14:15:00Z"
+  },
+  {
+    "id": 93,
+    "name": "AI Research",
+    "description": "Artificial intelligence research",
+    "permissions": [841, 842, 843, 844],
+    "created_at": "2024-01-06T08:00:00Z",
+    "updated_at": "2024-01-06T08:00:00Z"
+  },
+  {
+    "id": 94,
+    "name": "Data Engineering",
+    "description": "Data infrastructure team",
+    "permissions": [341, 342, 851, 852],
+    "created_at": "2024-01-06T08:30:00Z",
+    "updated_at": "2024-05-18T16:30:00Z"
+  },
+  {
+    "id": 95,
+    "name": "Business Intelligence",
+    "description": "BI and reporting",
+    "permissions": [121, 122, 861, 862],
+    "created_at": "2024-01-06T09:00:00Z",
+    "updated_at": "2024-01-06T09:00:00Z"
+  },
+  {
+    "id": 96,
+    "name": "Analytics",
+    "description": "Analytics team",
+    "permissions": [121, 122, 871, 872],
+    "created_at": "2024-01-06T09:30:00Z",
+    "updated_at": "2024-06-22T09:45:00Z"
+  },
+  {
+    "id": 97,
+    "name": "Data Governance",
+    "description": "Data governance team",
+    "permissions": [881, 882, 883, 884],
+    "created_at": "2024-01-06T10:00:00Z",
+    "updated_at": "2024-01-06T10:00:00Z"
+  },
+  {
+    "id": 98,
+    "name": "Privacy Team",
+    "description": "Data privacy compliance",
+    "permissions": [891, 892, 893, 894],
+    "created_at": "2024-01-06T10:30:00Z",
+    "updated_at": "2024-07-28T11:15:00Z"
+  },
+  {
+    "id": 99,
+    "name": "Cybersecurity",
+    "description": "Cybersecurity operations",
+    "permissions": [171, 172, 173, 901],
+    "created_at": "2024-01-06T11:00:00Z",
+    "updated_at": "2024-01-06T11:00:00Z"
+  },
+  {
+    "id": 100,
+    "name": "Incident Response",
+    "description": "Security incident response",
+    "permissions": [171, 173, 911, 912],
+    "created_at": "2024-01-06T11:30:00Z",
+    "updated_at": "2024-08-15T13:30:00Z"
+  },
+  {
+    "id": 101,
+    "name": "Threat Intelligence",
+    "description": "Cyber threat intelligence",
+    "permissions": [921, 922, 923, 924],
+    "created_at": "2024-01-06T12:00:00Z",
+    "updated_at": "2024-01-06T12:00:00Z"
+  },
+  {
+    "id": 102,
+    "name": "Penetration Testing",
+    "description": "Security testing team",
+    "permissions": [931, 932, 933, 934],
+    "created_at": "2024-01-06T12:30:00Z",
+    "updated_at": "2024-09-20T15:00:00Z"
+  },
+  {
+    "id": 103,
+    "name": "Identity Access Management",
+    "description": "IAM team",
+    "permissions": [1, 2, 11, 12],
+    "created_at": "2024-01-06T13:00:00Z",
+    "updated_at": "2024-01-06T13:00:00Z"
+  },
+  {
+    "id": 104,
+    "name": "Change Management",
+    "description": "Organizational change management",
+    "permissions": [941, 942, 943, 944],
+    "created_at": "2024-01-06T13:30:00Z",
+    "updated_at": "2024-02-22T10:30:00Z"
+  },
+  {
+    "id": 105,
+    "name": "Release Management",
+    "description": "Software release management",
+    "permissions": [81, 82, 951, 952],
+    "created_at": "2024-01-06T14:00:00Z",
+    "updated_at": "2024-01-06T14:00:00Z"
+  },
+  {
+    "id": 106,
+    "name": "Configuration Management",
+    "description": "System configuration",
+    "permissions": [961, 962, 963, 964],
+    "created_at": "2024-01-06T14:30:00Z",
+    "updated_at": "2024-03-15T12:15:00Z"
+  },
+  {
+    "id": 107,
+    "name": "Service Desk",
+    "description": "IT service desk",
+    "permissions": [321, 322, 971, 972],
+    "created_at": "2024-01-06T15:00:00Z",
+    "updated_at": "2024-01-06T15:00:00Z"
+  },
+  {
+    "id": 108,
+    "name": "Asset Management",
+    "description": "IT asset management",
+    "permissions": [981, 982, 983, 984],
+    "created_at": "2024-01-06T15:30:00Z",
+    "updated_at": "2024-04-20T14:45:00Z"
+  },
+  {
+    "id": 109,
+    "name": "License Management",
+    "description": "Software license management",
+    "permissions": [991, 992, 993, 994],
+    "created_at": "2024-01-06T16:00:00Z",
+    "updated_at": "2024-01-06T16:00:00Z"
+  },
+  {
+    "id": 110,
+    "name": "Backup & Recovery",
+    "description": "Data backup operations",
+    "permissions": [341, 342, 1001, 1002],
+    "created_at": "2024-01-06T16:30:00Z",
+    "updated_at": "2024-05-25T16:20:00Z"
+  },
+  {
+    "id": 111,
+    "name": "Disaster Recovery",
+    "description": "DR planning and operations",
+    "permissions": [1011, 1012, 1013, 1014],
+    "created_at": "2024-01-07T08:00:00Z",
+    "updated_at": "2024-01-07T08:00:00Z"
+  },
+  {
+    "id": 112,
+    "name": "Business Continuity",
+    "description": "Business continuity planning",
+    "permissions": [1021, 1022, 1023, 1024],
+    "created_at": "2024-01-07T08:30:00Z",
+    "updated_at": "2024-06-30T09:30:00Z"
+  },
+  {
+    "id": 113,
+    "name": "Technical Support L1",
+    "description": "Level 1 technical support",
+    "permissions": [321, 322, 323],
+    "created_at": "2024-01-07T09:00:00Z",
+    "updated_at": "2024-01-07T09:00:00Z"
+  },
+  {
+    "id": 114,
+    "name": "Technical Support L2",
+    "description": "Level 2 technical support",
+    "permissions": [321, 322, 323, 324],
+    "created_at": "2024-01-07T09:30:00Z",
+    "updated_at": "2024-07-15T11:45:00Z"
+  },
+  {
+    "id": 115,
+    "name": "Technical Support L3",
+    "description": "Level 3 technical support",
+    "permissions": [321, 322, 323, 324, 325],
+    "created_at": "2024-01-07T10:00:00Z",
+    "updated_at": "2024-01-07T10:00:00Z"
+  },
+  {
+    "id": 116,
+    "name": "Customer Onboarding",
+    "description": "Customer onboarding team",
+    "permissions": [71, 72, 1031, 1032],
+    "created_at": "2024-01-07T10:30:00Z",
+    "updated_at": "2024-08-20T13:15:00Z"
+  },
+  {
+    "id": 117,
+    "name": "Implementation Team",
+    "description": "Solution implementation",
+    "permissions": [1041, 1042, 1043, 1044],
+    "created_at": "2024-01-07T11:00:00Z",
+    "updated_at": "2024-01-07T11:00:00Z"
+  },
+  {
+    "id": 118,
+    "name": "Professional Services",
+    "description": "Professional services team",
+    "permissions": [1051, 1052, 1053, 1054],
+    "created_at": "2024-01-07T11:30:00Z",
+    "updated_at": "2024-09-25T15:30:00Z"
+  },
+  {
+    "id": 119,
+    "name": "Consulting",
+    "description": "Consulting services",
+    "permissions": [1061, 1062, 1063, 1064],
+    "created_at": "2024-01-07T12:00:00Z",
+    "updated_at": "2024-01-07T12:00:00Z"
+  },
+  {
+    "id": 120,
+    "name": "Integration Team",
+    "description": "Systems integration",
+    "permissions": [81, 82, 1071, 1072],
+    "created_at": "2024-01-07T12:30:00Z",
+    "updated_at": "2024-02-28T10:45:00Z"
+  },
+  {
+    "id": 121,
+    "name": "Platform Team",
+    "description": "Platform engineering",
+    "permissions": [81, 82, 101, 102],
+    "created_at": "2024-01-07T13:00:00Z",
+    "updated_at": "2024-01-07T13:00:00Z"
+  },
+  {
+    "id": 122,
+    "name": "Infrastructure Team",
+    "description": "Infrastructure management",
+    "permissions": [101, 102, 331, 332],
+    "created_at": "2024-01-07T13:30:00Z",
+    "updated_at": "2024-03-30T12:30:00Z"
+  },
+  {
+    "id": 123,
+    "name": "SRE Team",
+    "description": "Site reliability engineering",
+    "permissions": [101, 102, 103, 1081],
+    "created_at": "2024-01-07T14:00:00Z",
+    "updated_at": "2024-01-07T14:00:00Z"
+  },
+  {
+    "id": 124,
+    "name": "Performance Engineering",
+    "description": "Performance optimization",
+    "permissions": [1091, 1092, 1093, 1094],
+    "created_at": "2024-01-07T14:30:00Z",
+    "updated_at": "2024-04-18T14:15:00Z"
+  },
+  {
+    "id": 125,
+    "name": "Load Testing",
+    "description": "Load and stress testing",
+    "permissions": [91, 92, 1091, 1092],
+    "created_at": "2024-01-07T15:00:00Z",
+    "updated_at": "2024-01-07T15:00:00Z"
+  },
+  {
+    "id": 126,
+    "name": "Automation Team",
+    "description": "Test automation",
+    "permissions": [91, 92, 1101, 1102],
+    "created_at": "2024-01-07T15:30:00Z",
+    "updated_at": "2024-05-22T16:00:00Z"
+  },
+  {
+    "id": 127,
+    "name": "Manual Testing",
+    "description": "Manual QA testing",
+    "permissions": [91, 92, 93],
+    "created_at": "2024-01-07T16:00:00Z",
+    "updated_at": "2024-01-07T16:00:00Z"
+  },
+  {
+    "id": 128,
+    "name": "Accessibility Team",
+    "description": "Accessibility compliance",
+    "permissions": [1111, 1112, 1113, 1114],
+    "created_at": "2024-01-07T16:30:00Z",
+    "updated_at": "2024-06-28T09:15:00Z"
+  },
+  {
+    "id": 129,
+    "name": "Localization Team",
+    "description": "Product localization",
+    "permissions": [1121, 1122, 1123, 1124],
+    "created_at": "2024-01-08T08:00:00Z",
+    "updated_at": "2024-01-08T08:00:00Z"
+  },
+  {
+    "id": 130,
+    "name": "Translation Team",
+    "description": "Translation services",
+    "permissions": [1121, 1122, 1131, 1132],
+    "created_at": "2024-01-08T08:30:00Z",
+    "updated_at": "2024-07-12T11:30:00Z"
+  },
+  {
+    "id": 131,
+    "name": "Customer Education",
+    "description": "Customer training and education",
+    "permissions": [211, 212, 1141, 1142],
+    "created_at": "2024-01-08T09:00:00Z",
+    "updated_at": "2024-01-08T09:00:00Z"
+  },
+  {
+    "id": 132,
+    "name": "Community Management",
+    "description": "Community engagement",
+    "permissions": [1151, 1152, 1153, 1154],
+    "created_at": "2024-01-08T09:30:00Z",
+    "updated_at": "2024-08-18T13:45:00Z"
+  },
+  {
+    "id": 133,
+    "name": "Developer Relations",
+    "description": "Developer community",
+    "permissions": [1161, 1162, 1163, 1164],
+    "created_at": "2024-01-08T10:00:00Z",
+    "updated_at": "2024-01-08T10:00:00Z"
+  },
+  {
+    "id": 134,
+    "name": "Partner Support",
+    "description": "Partner technical support",
+    "permissions": [321, 322, 1171, 1172],
+    "created_at": "2024-01-08T10:30:00Z",
+    "updated_at": "2024-09-15T15:20:00Z"
+  },
+  {
+    "id": 135,
+    "name": "Channel Sales",
+    "description": "Channel partner sales",
+    "permissions": [31, 32, 541, 542],
+    "created_at": "2024-01-08T11:00:00Z",
+    "updated_at": "2024-01-08T11:00:00Z"
+  },
+  {
+    "id": 136,
+    "name": "Reseller Management",
+    "description": "Reseller relations",
+    "permissions": [1181, 1182, 1183, 1184],
+    "created_at": "2024-01-08T11:30:00Z",
+    "updated_at": "2024-02-25T10:15:00Z"
+  },
+  {
+    "id": 137,
+    "name": "Distributor Relations",
+    "description": "Distributor management",
+    "permissions": [1191, 1192, 1193, 1194],
+    "created_at": "2024-01-08T12:00:00Z",
+    "updated_at": "2024-01-08T12:00:00Z"
+  },
+  {
+    "id": 138,
+    "name": "Affiliate Program",
+    "description": "Affiliate marketing",
+    "permissions": [1201, 1202, 1203, 1204],
+    "created_at": "2024-01-08T12:30:00Z",
+    "updated_at": "2024-03-28T12:45:00Z"
+  },
+  {
+    "id": 139,
+    "name": "Referral Program",
+    "description": "Customer referral program",
+    "permissions": [1211, 1212, 1213, 1214],
+    "created_at": "2024-01-08T13:00:00Z",
+    "updated_at": "2024-01-08T13:00:00Z"
+  },
+  {
+    "id": 140,
+    "name": "Loyalty Program",
+    "description": "Customer loyalty management",
+    "permissions": [1221, 1222, 1223, 1224],
+    "created_at": "2024-01-08T13:30:00Z",
+    "updated_at": "2024-04-22T14:30:00Z"
+  },
+  {
+    "id": 141,
+    "name": "Promotions Team",
+    "description": "Promotional campaigns",
+    "permissions": [41, 42, 1231, 1232],
+    "created_at": "2024-01-08T14:00:00Z",
+    "updated_at": "2024-01-08T14:00:00Z"
+  },
+  {
+    "id": 142,
+    "name": "Discount Management",
+    "description": "Discount and pricing",
+    "permissions": [571, 572, 1241, 1242],
+    "created_at": "2024-01-08T14:30:00Z",
+    "updated_at": "2024-05-28T16:15:00Z"
+  },
+  {
+    "id": 143,
+    "name": "Revenue Recognition",
+    "description": "Revenue accounting",
+    "permissions": [51, 52, 1251, 1252],
+    "created_at": "2024-01-08T15:00:00Z",
+    "updated_at": "2024-01-08T15:00:00Z"
+  },
+  {
+    "id": 144,
+    "name": "Billing Team",
+    "description": "Customer billing operations",
+    "permissions": [1261, 1262, 1263, 1264],
+    "created_at": "2024-01-08T15:30:00Z",
+    "updated_at": "2024-06-15T09:45:00Z"
+  },
+  {
+    "id": 145,
+    "name": "Collections",
+    "description": "Accounts receivable",
+    "permissions": [1271, 1272, 1273, 1274],
+    "created_at": "2024-01-08T16:00:00Z",
+    "updated_at": "2024-01-08T16:00:00Z"
+  },
+  {
+    "id": 146,
+    "name": "Accounts Payable",
+    "description": "AP operations",
+    "permissions": [1281, 1282, 1283, 1284],
+    "created_at": "2024-01-08T16:30:00Z",
+    "updated_at": "2024-07-20T11:15:00Z"
+  },
+  {
+    "id": 147,
+    "name": "Credit Team",
+    "description": "Credit management",
+    "permissions": [1291, 1292, 1293, 1294],
+    "created_at": "2024-01-09T08:00:00Z",
+    "updated_at": "2024-01-09T08:00:00Z"
+  },
+  {
+    "id": 148,
+    "name": "Financial Reporting",
+    "description": "Financial reports",
+    "permissions": [51, 52, 121, 122],
+    "created_at": "2024-01-09T08:30:00Z",
+    "updated_at": "2024-08-25T13:30:00Z"
+  },
+  {
+    "id": 149,
+    "name": "Budget Planning",
+    "description": "Budget management",
+    "permissions": [1301, 1302, 1303, 1304],
+    "created_at": "2024-01-09T09:00:00Z",
+    "updated_at": "2024-01-09T09:00:00Z"
+  },
+  {
+    "id": 150,
+    "name": "Cost Control",
+    "description": "Cost management",
+    "permissions": [1311, 1312, 1313, 1314],
+    "created_at": "2024-01-09T09:30:00Z",
+    "updated_at": "2024-09-12T15:45:00Z"
+  },
+  {
+    "id": 151,
+    "name": "Portfolio Management",
+    "description": "Project portfolio management",
+    "permissions": [181, 182, 1321, 1322],
+    "created_at": "2024-01-09T10:00:00Z",
+    "updated_at": "2024-01-09T10:00:00Z"
+  },
+  {
+    "id": 152,
+    "name": "Program Management",
+    "description": "Program management office",
+    "permissions": [181, 182, 1331, 1332],
+    "created_at": "2024-01-09T10:30:00Z",
+    "updated_at": "2024-02-15T10:30:00Z"
+  },
+  {
+    "id": 153,
+    "name": "Agile Coaches",
+    "description": "Agile transformation",
+    "permissions": [1341, 1342, 1343, 1344],
+    "created_at": "2024-01-09T11:00:00Z",
+    "updated_at": "2024-01-09T11:00:00Z"
+  },
+  {
+    "id": 154,
+    "name": "Process Improvement",
+    "description": "Process optimization",
+    "permissions": [1351, 1352, 1353, 1354],
+    "created_at": "2024-01-09T11:30:00Z",
+    "updated_at": "2024-03-20T12:15:00Z"
+  },
+  {
+    "id": 155,
+    "name": "Six Sigma Team",
+    "description": "Six Sigma improvement",
+    "permissions": [1351, 1352, 1361, 1362],
+    "created_at": "2024-01-09T12:00:00Z",
+    "updated_at": "2024-01-09T12:00:00Z"
+  },
+  {
+    "id": 156,
+    "name": "Lean Team",
+    "description": "Lean manufacturing",
+    "permissions": [1371, 1372, 1373, 1374],
+    "created_at": "2024-01-09T12:30:00Z",
+    "updated_at": "2024-04-25T14:00:00Z"
+  },
+  {
+    "id": 157,
+    "name": "Continuous Improvement",
+    "description": "CI initiatives",
+    "permissions": [1351, 1371, 1381, 1382],
+    "created_at": "2024-01-09T13:00:00Z",
+    "updated_at": "2024-01-09T13:00:00Z"
+  },
+  {
+    "id": 158,
+    "name": "Knowledge Management",
+    "description": "Knowledge base management",
+    "permissions": [201, 202, 1391, 1392],
+    "created_at": "2024-01-09T13:30:00Z",
+    "updated_at": "2024-05-30T16:30:00Z"
+  },
+  {
+    "id": 159,
+    "name": "Documentation",
+    "description": "Technical documentation",
+    "permissions": [201, 202, 203, 204],
+    "created_at": "2024-01-09T14:00:00Z",
+    "updated_at": "2024-01-09T14:00:00Z"
+  },
+  {
+    "id": 160,
+    "name": "Standards Team",
+    "description": "Standards and best practices",
+    "permissions": [1401, 1402, 1403, 1404],
+    "created_at": "2024-01-09T14:30:00Z",
+    "updated_at": "2024-06-18T09:15:00Z"
+  },
+  {
+    "id": 161,
+    "name": "Architecture Team",
+    "description": "Enterprise architecture",
+    "permissions": [1411, 1412, 1413, 1414],
+    "created_at": "2024-01-09T15:00:00Z",
+    "updated_at": "2024-01-09T15:00:00Z"
+  },
+  {
+    "id": 162,
+    "name": "Solutions Architecture",
+    "description": "Solution design",
+    "permissions": [1411, 1412, 1421, 1422],
+    "created_at": "2024-01-09T15:30:00Z",
+    "updated_at": "2024-07-25T11:45:00Z"
+  },
+  {
+    "id": 163,
+    "name": "Technical Architecture",
+    "description": "Technical design",
+    "permissions": [81, 82, 1411, 1412],
+    "created_at": "2024-01-09T16:00:00Z",
+    "updated_at": "2024-01-09T16:00:00Z"
+  },
+  {
+    "id": 164,
+    "name": "Data Architecture",
+    "description": "Data architecture team",
+    "permissions": [341, 342, 1431, 1432],
+    "created_at": "2024-01-09T16:30:00Z",
+    "updated_at": "2024-08-12T13:20:00Z"
+  },
+  {
+    "id": 165,
+    "name": "Security Architecture",
+    "description": "Security architecture",
+    "permissions": [171, 172, 1441, 1442],
+    "created_at": "2024-01-10T08:00:00Z",
+    "updated_at": "2024-01-10T08:00:00Z"
+  },
+  {
+    "id": 166,
+    "name": "Network Architecture",
+    "description": "Network design",
+    "permissions": [331, 332, 1451, 1452],
+    "created_at": "2024-01-10T08:30:00Z",
+    "updated_at": "2024-09-18T15:15:00Z"
+  },
+  {
+    "id": 167,
+    "name": "Cloud Architecture",
+    "description": "Cloud solution architecture",
+    "permissions": [351, 352, 1461, 1462],
+    "created_at": "2024-01-10T09:00:00Z",
+    "updated_at": "2024-01-10T09:00:00Z"
+  },
+  {
+    "id": 168,
+    "name": "Application Architecture",
+    "description": "Application design",
+    "permissions": [81, 82, 1471, 1472],
+    "created_at": "2024-01-10T09:30:00Z",
+    "updated_at": "2024-02-20T10:45:00Z"
+  },
+  {
+    "id": 169,
+    "name": "Integration Architecture",
+    "description": "Integration design",
+    "permissions": [1071, 1072, 1481, 1482],
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2024-01-10T10:00:00Z"
+  },
+  {
+    "id": 170,
+    "name": "Microservices Team",
+    "description": "Microservices development",
+    "permissions": [81, 82, 361, 362],
+    "created_at": "2024-01-10T10:30:00Z",
+    "updated_at": "2024-03-25T12:30:00Z"
+  },
+  {
+    "id": 171,
+    "name": "Containerization",
+    "description": "Container platform team",
+    "permissions": [101, 102, 1491, 1492],
+    "created_at": "2024-01-10T11:00:00Z",
+    "updated_at": "2024-01-10T11:00:00Z"
+  },
+  {
+    "id": 172,
+    "name": "Kubernetes Team",
+    "description": "K8s operations",
+    "permissions": [101, 102, 1491, 1501],
+    "created_at": "2024-01-10T11:30:00Z",
+    "updated_at": "2024-04-30T14:15:00Z"
+  },
+  {
+    "id": 173,
+    "name": "Service Mesh",
+    "description": "Service mesh management",
+    "permissions": [1511, 1512, 1513, 1514],
+    "created_at": "2024-01-10T12:00:00Z",
+    "updated_at": "2024-01-10T12:00:00Z"
+  },
+  {
+    "id": 174,
+    "name": "API Gateway",
+    "description": "API gateway management",
+    "permissions": [361, 362, 1521, 1522],
+    "created_at": "2024-01-10T12:30:00Z",
+    "updated_at": "2024-05-18T16:00:00Z"
+  },
+  {
+    "id": 175,
+    "name": "Message Queue",
+    "description": "Message broker operations",
+    "permissions": [1531, 1532, 1533, 1534],
+    "created_at": "2024-01-10T13:00:00Z",
+    "updated_at": "2024-01-10T13:00:00Z"
+  },
+  {
+    "id": 176,
+    "name": "Event Streaming",
+    "description": "Event streaming platform",
+    "permissions": [1541, 1542, 1543, 1544],
+    "created_at": "2024-01-10T13:30:00Z",
+    "updated_at": "2024-06-22T09:30:00Z"
+  },
+  {
+    "id": 177,
+    "name": "Observability",
+    "description": "System observability",
+    "permissions": [1551, 1552, 1553, 1554],
+    "created_at": "2024-01-10T14:00:00Z",
+    "updated_at": "2024-01-10T14:00:00Z"
+  },
+  {
+    "id": 178,
+    "name": "Monitoring Team",
+    "description": "Infrastructure monitoring",
+    "permissions": [1551, 1552, 1561, 1562],
+    "created_at": "2024-01-10T14:30:00Z",
+    "updated_at": "2024-07-28T11:15:00Z"
+  },
+  {
+    "id": 179,
+    "name": "Logging Team",
+    "description": "Log management",
+    "permissions": [1571, 1572, 1573, 1574],
+    "created_at": "2024-01-10T15:00:00Z",
+    "updated_at": "2024-01-10T15:00:00Z"
+  },
+  {
+    "id": 180,
+    "name": "Tracing Team",
+    "description": "Distributed tracing",
+    "permissions": [1581, 1582, 1583, 1584],
+    "created_at": "2024-01-10T15:30:00Z",
+    "updated_at": "2024-08-15T13:45:00Z"
+  },
+  {
+    "id": 181,
+    "name": "Alerting Team",
+    "description": "Alert management",
+    "permissions": [1591, 1592, 1593, 1594],
+    "created_at": "2024-01-10T16:00:00Z",
+    "updated_at": "2024-01-10T16:00:00Z"
+  },
+  {
+    "id": 182,
+    "name": "On-Call Team",
+    "description": "On-call operations",
+    "permissions": [101, 102, 1591, 1592],
+    "created_at": "2024-01-10T16:30:00Z",
+    "updated_at": "2024-09-22T15:20:00Z"
+  },
+  {
+    "id": 183,
+    "name": "Capacity Planning",
+    "description": "Resource capacity planning",
+    "permissions": [1601, 1602, 1603, 1604],
+    "created_at": "2024-01-11T08:00:00Z",
+    "updated_at": "2024-01-11T08:00:00Z"
+  },
+  {
+    "id": 184,
+    "name": "Performance Monitoring",
+    "description": "Performance tracking",
+    "permissions": [1091, 1092, 1551, 1552],
+    "created_at": "2024-01-11T08:30:00Z",
+    "updated_at": "2024-02-28T10:30:00Z"
+  },
+  {
+    "id": 185,
+    "name": "Cost Optimization",
+    "description": "Cloud cost optimization",
+    "permissions": [1611, 1612, 1613, 1614],
+    "created_at": "2024-01-11T09:00:00Z",
+    "updated_at": "2024-01-11T09:00:00Z"
+  },
+  {
+    "id": 186,
+    "name": "FinOps",
+    "description": "Financial operations for cloud",
+    "permissions": [51, 52, 1611, 1612],
+    "created_at": "2024-01-11T09:30:00Z",
+    "updated_at": "2024-03-30T12:15:00Z"
+  },
+  {
+    "id": 187,
+    "name": "Resource Management",
+    "description": "Resource allocation",
+    "permissions": [1621, 1622, 1623, 1624],
+    "created_at": "2024-01-11T10:00:00Z",
+    "updated_at": "2024-01-11T10:00:00Z"
+  },
+  {
+    "id": 188,
+    "name": "Scheduling Team",
+    "description": "Job scheduling operations",
+    "permissions": [1631, 1632, 1633, 1634],
+    "created_at": "2024-01-11T10:30:00Z",
+    "updated_at": "2024-04-18T14:30:00Z"
+  },
+  {
+    "id": 189,
+    "name": "Batch Processing",
+    "description": "Batch job processing",
+    "permissions": [1641, 1642, 1643, 1644],
+    "created_at": "2024-01-11T11:00:00Z",
+    "updated_at": "2024-01-11T11:00:00Z"
+  },
+  {
+    "id": 190,
+    "name": "Real-time Processing",
+    "description": "Real-time data processing",
+    "permissions": [1651, 1652, 1653, 1654],
+    "created_at": "2024-01-11T11:30:00Z",
+    "updated_at": "2024-05-25T16:15:00Z"
+  },
+  {
+    "id": 191,
+    "name": "ETL Team",
+    "description": "ETL operations",
+    "permissions": [341, 342, 851, 852],
+    "created_at": "2024-01-11T12:00:00Z",
+    "updated_at": "2024-01-11T12:00:00Z"
+  },
+  {
+    "id": 192,
+    "name": "Data Pipeline",
+    "description": "Data pipeline management",
+    "permissions": [1661, 1662, 1663, 1664],
+    "created_at": "2024-01-11T12:30:00Z",
+    "updated_at": "2024-06-30T09:45:00Z"
+  },
+  {
+    "id": 193,
+    "name": "Data Quality",
+    "description": "Data quality management",
+    "permissions": [1671, 1672, 1673, 1674],
+    "created_at": "2024-01-11T13:00:00Z",
+    "updated_at": "2024-01-11T13:00:00Z"
+  },
+  {
+    "id": 194,
+    "name": "Master Data Management",
+    "description": "MDM operations",
+    "permissions": [1681, 1682, 1683, 1684],
+    "created_at": "2024-01-11T13:30:00Z",
+    "updated_at": "2024-07-15T11:30:00Z"
+  },
+  {
+    "id": 195,
+    "name": "Data Catalog",
+    "description": "Data catalog management",
+    "permissions": [1691, 1692, 1693, 1694],
+    "created_at": "2024-01-11T14:00:00Z",
+    "updated_at": "2024-01-11T14:00:00Z"
+  },
+  {
+    "id": 196,
+    "name": "Metadata Management",
+    "description": "Metadata operations",
+    "permissions": [1701, 1702, 1703, 1704],
+    "created_at": "2024-01-11T14:30:00Z",
+    "updated_at": "2024-08-20T13:15:00Z"
+  },
+  {
+    "id": 197,
+    "name": "Data Lineage",
+    "description": "Data lineage tracking",
+    "permissions": [1711, 1712, 1713, 1714],
+    "created_at": "2024-01-11T15:00:00Z",
+    "updated_at": "2024-01-11T15:00:00Z"
+  },
+  {
+    "id": 198,
+    "name": "Schema Management",
+    "description": "Database schema management",
+    "permissions": [341, 342, 1721, 1722],
+    "created_at": "2024-01-11T15:30:00Z",
+    "updated_at": "2024-09-25T15:30:00Z"
+  },
+  {
+    "id": 199,
+    "name": "Query Optimization",
+    "description": "Query performance tuning",
+    "permissions": [1731, 1732, 1733, 1734],
+    "created_at": "2024-01-11T16:00:00Z",
+    "updated_at": "2024-01-11T16:00:00Z"
+  },
+  {
+    "id": 200,
+    "name": "Index Management",
+    "description": "Database index management",
+    "permissions": [341, 342, 1741, 1742],
+    "created_at": "2024-01-11T16:30:00Z",
+    "updated_at": "2024-02-22T10:15:00Z"
+  },
+  {
+    "id": 201,
+    "name": "Replication Team",
+    "description": "Database replication",
+    "permissions": [1751, 1752, 1753, 1754],
+    "created_at": "2024-01-12T08:00:00Z",
+    "updated_at": "2024-01-12T08:00:00Z"
+  },
+  {
+    "id": 202,
+    "name": "Sharding Team",
+    "description": "Database sharding",
+    "permissions": [1761, 1762, 1763, 1764],
+    "created_at": "2024-01-12T08:30:00Z",
+    "updated_at": "2024-03-28T12:30:00Z"
+  },
+  {
+    "id": 203,
+    "name": "Caching Team",
+    "description": "Cache management",
+    "permissions": [1771, 1772, 1773, 1774],
+    "created_at": "2024-01-12T09:00:00Z",
+    "updated_at": "2024-01-12T09:00:00Z"
+  },
+  {
+    "id": 204,
+    "name": "CDN Management",
+    "description": "Content delivery network",
+    "permissions": [1781, 1782, 1783, 1784],
+    "created_at": "2024-01-12T09:30:00Z",
+    "updated_at": "2024-04-25T14:45:00Z"
+  },
+  {
+    "id": 205,
+    "name": "Load Balancing",
+    "description": "Load balancer management",
+    "permissions": [1791, 1792, 1793, 1794],
+    "created_at": "2024-01-12T10:00:00Z",
+    "updated_at": "2024-01-12T10:00:00Z"
+  },
+  {
+    "id": 206,
+    "name": "Proxy Management",
+    "description": "Proxy server operations",
+    "permissions": [1801, 1802, 1803, 1804],
+    "created_at": "2024-01-12T10:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 207,
+    "name": "DNS Management",
+    "description": "DNS operations",
+    "permissions": [1811, 1812, 1813, 1814],
+    "created_at": "2024-01-12T11:00:00Z",
+    "updated_at": "2024-01-12T11:00:00Z"
+  },
+  {
+    "id": 208,
+    "name": "SSL/TLS Management",
+    "description": "Certificate management",
+    "permissions": [1821, 1822, 1823, 1824],
+    "created_at": "2024-01-12T11:30:00Z",
+    "updated_at": "2024-06-18T09:30:00Z"
+  },
+  {
+    "id": 209,
+    "name": "VPN Management",
+    "description": "VPN operations",
+    "permissions": [1831, 1832, 1833, 1834],
+    "created_at": "2024-01-12T12:00:00Z",
+    "updated_at": "2024-01-12T12:00:00Z"
+  },
+  {
+    "id": 210,
+    "name": "Firewall Management",
+    "description": "Firewall administration",
+    "permissions": [171, 172, 1841, 1842],
+    "created_at": "2024-01-12T12:30:00Z",
+    "updated_at": "2024-07-25T11:15:00Z"
+  },
+  {
+    "id": 211,
+    "name": "WAF Management",
+    "description": "Web application firewall",
+    "permissions": [1851, 1852, 1853, 1854],
+    "created_at": "2024-01-12T13:00:00Z",
+    "updated_at": "2024-01-12T13:00:00Z"
+  },
+  {
+    "id": 212,
+    "name": "DDoS Protection",
+    "description": "DDoS mitigation",
+    "permissions": [1861, 1862, 1863, 1864],
+    "created_at": "2024-01-12T13:30:00Z",
+    "updated_at": "2024-08-12T13:45:00Z"
+  },
+  {
+    "id": 213,
+    "name": "SIEM Team",
+    "description": "Security information and event management",
+    "permissions": [171, 172, 1871, 1872],
+    "created_at": "2024-01-12T14:00:00Z",
+    "updated_at": "2024-01-12T14:00:00Z"
+  },
+  {
+    "id": 214,
+    "name": "SOC Team",
+    "description": "Security operations center",
+    "permissions": [171, 172, 173, 174],
+    "created_at": "2024-01-12T14:30:00Z",
+    "updated_at": "2024-09-15T15:20:00Z"
+  },
+  {
+    "id": 215,
+    "name": "Vulnerability Management",
+    "description": "Vulnerability scanning",
+    "permissions": [1881, 1882, 1883, 1884],
+    "created_at": "2024-01-12T15:00:00Z",
+    "updated_at": "2024-01-12T15:00:00Z"
+  },
+  {
+    "id": 216,
+    "name": "Patch Management",
+    "description": "System patching",
+    "permissions": [1891, 1892, 1893, 1894],
+    "created_at": "2024-01-12T15:30:00Z",
+    "updated_at": "2024-02-28T10:45:00Z"
+  },
+  {
+    "id": 217,
+    "name": "Endpoint Security",
+    "description": "Endpoint protection",
+    "permissions": [1901, 1902, 1903, 1904],
+    "created_at": "2024-01-12T16:00:00Z",
+    "updated_at": "2024-01-12T16:00:00Z"
+  },
+  {
+    "id": 218,
+    "name": "Email Security",
+    "description": "Email security management",
+    "permissions": [1911, 1912, 1913, 1914],
+    "created_at": "2024-01-12T16:30:00Z",
+    "updated_at": "2024-03-30T12:15:00Z"
+  },
+  {
+    "id": 219,
+    "name": "Anti-Malware",
+    "description": "Malware protection",
+    "permissions": [1921, 1922, 1923, 1924],
+    "created_at": "2024-01-13T08:00:00Z",
+    "updated_at": "2024-01-13T08:00:00Z"
+  },
+  {
+    "id": 220,
+    "name": "Antivirus Management",
+    "description": "Antivirus operations",
+    "permissions": [1921, 1922, 1931, 1932],
+    "created_at": "2024-01-13T08:30:00Z",
+    "updated_at": "2024-04-18T14:30:00Z"
+  },
+  {
+    "id": 221,
+    "name": "Data Loss Prevention",
+    "description": "DLP operations",
+    "permissions": [1941, 1942, 1943, 1944],
+    "created_at": "2024-01-13T09:00:00Z",
+    "updated_at": "2024-01-13T09:00:00Z"
+  },
+  {
+    "id": 222,
+    "name": "Encryption Management",
+    "description": "Encryption operations",
+    "permissions": [1951, 1952, 1953, 1954],
+    "created_at": "2024-01-13T09:30:00Z",
+    "updated_at": "2024-05-25T16:15:00Z"
+  },
+  {
+    "id": 223,
+    "name": "Key Management",
+    "description": "Cryptographic key management",
+    "permissions": [1961, 1962, 1963, 1964],
+    "created_at": "2024-01-13T10:00:00Z",
+    "updated_at": "2024-01-13T10:00:00Z"
+  },
+  {
+    "id": 224,
+    "name": "PKI Team",
+    "description": "Public key infrastructure",
+    "permissions": [1971, 1972, 1973, 1974],
+    "created_at": "2024-01-13T10:30:00Z",
+    "updated_at": "2024-06-30T09:45:00Z"
+  },
+  {
+    "id": 225,
+    "name": "Access Control",
+    "description": "Access control management",
+    "permissions": [1, 2, 1981, 1982],
+    "created_at": "2024-01-13T11:00:00Z",
+    "updated_at": "2024-01-13T11:00:00Z"
+  },
+  {
+    "id": 226,
+    "name": "Authentication Team",
+    "description": "Authentication services",
+    "permissions": [1991, 1992, 1993, 1994],
+    "created_at": "2024-01-13T11:30:00Z",
+    "updated_at": "2024-07-15T11:30:00Z"
+  },
+  {
+    "id": 227,
+    "name": "Authorization Team",
+    "description": "Authorization services",
+    "permissions": [2001, 2002, 2003, 2004],
+    "created_at": "2024-01-13T12:00:00Z",
+    "updated_at": "2024-01-13T12:00:00Z"
+  },
+  {
+    "id": 228,
+    "name": "SSO Team",
+    "description": "Single sign-on management",
+    "permissions": [2011, 2012, 2013, 2014],
+    "created_at": "2024-01-13T12:30:00Z",
+    "updated_at": "2024-08-20T13:15:00Z"
+  },
+  {
+    "id": 229,
+    "name": "MFA Team",
+    "description": "Multi-factor authentication",
+    "permissions": [2021, 2022, 2023, 2024],
+    "created_at": "2024-01-13T13:00:00Z",
+    "updated_at": "2024-01-13T13:00:00Z"
+  },
+  {
+    "id": 230,
+    "name": "Password Management",
+    "description": "Password policy management",
+    "permissions": [8, 2031, 2032, 2033],
+    "created_at": "2024-01-13T13:30:00Z",
+    "updated_at": "2024-09-25T15:30:00Z"
+  },
+  {
+    "id": 231,
+    "name": "Session Management",
+    "description": "User session management",
+    "permissions": [2041, 2042, 2043, 2044],
+    "created_at": "2024-01-13T14:00:00Z",
+    "updated_at": "2024-01-13T14:00:00Z"
+  },
+  {
+    "id": 232,
+    "name": "Audit Team",
+    "description": "Security audit operations",
+    "permissions": [271, 272, 2051, 2052],
+    "created_at": "2024-01-13T14:30:00Z",
+    "updated_at": "2024-02-22T10:30:00Z"
+  },
+  {
+    "id": 233,
+    "name": "Compliance Monitoring",
+    "description": "Compliance tracking",
+    "permissions": [161, 162, 2061, 2062],
+    "created_at": "2024-01-13T15:00:00Z",
+    "updated_at": "2024-01-13T15:00:00Z"
+  },
+  {
+    "id": 234,
+    "name": "GRC Team",
+    "description": "Governance, risk, and compliance",
+    "permissions": [161, 162, 581, 582],
+    "created_at": "2024-01-13T15:30:00Z",
+    "updated_at": "2024-03-28T12:45:00Z"
+  },
+  {
+    "id": 235,
+    "name": "Policy Management",
+    "description": "Policy administration",
+    "permissions": [2071, 2072, 2073, 2074],
+    "created_at": "2024-01-13T16:00:00Z",
+    "updated_at": "2024-01-13T16:00:00Z"
+  },
+  {
+    "id": 236,
+    "name": "Procedure Team",
+    "description": "Standard operating procedures",
+    "permissions": [2081, 2082, 2083, 2084],
+    "created_at": "2024-01-13T16:30:00Z",
+    "updated_at": "2024-04-25T14:15:00Z"
+  },
+  {
+    "id": 237,
+    "name": "Forms Management",
+    "description": "Digital forms management",
+    "permissions": [2091, 2092, 2093, 2094],
+    "created_at": "2024-01-14T08:00:00Z",
+    "updated_at": "2024-01-14T08:00:00Z"
+  },
+  {
+    "id": 238,
+    "name": "Workflow Team",
+    "description": "Workflow automation",
+    "permissions": [2101, 2102, 2103, 2104],
+    "created_at": "2024-01-14T08:30:00Z",
+    "updated_at": "2024-05-30T16:30:00Z"
+  },
+  {
+    "id": 239,
+    "name": "BPM Team",
+    "description": "Business process management",
+    "permissions": [2111, 2112, 2113, 2114],
+    "created_at": "2024-01-14T09:00:00Z",
+    "updated_at": "2024-01-14T09:00:00Z"
+  },
+  {
+    "id": 240,
+    "name": "RPA Team",
+    "description": "Robotic process automation",
+    "permissions": [2121, 2122, 2123, 2124],
+    "created_at": "2024-01-14T09:30:00Z",
+    "updated_at": "2024-06-18T09:15:00Z"
+  },
+  {
+    "id": 241,
+    "name": "Bot Development",
+    "description": "Chatbot development",
+    "permissions": [81, 82, 2131, 2132],
+    "created_at": "2024-01-14T10:00:00Z",
+    "updated_at": "2024-01-14T10:00:00Z"
+  },
+  {
+    "id": 242,
+    "name": "Voice Team",
+    "description": "Voice interface development",
+    "permissions": [2141, 2142, 2143, 2144],
+    "created_at": "2024-01-14T10:30:00Z",
+    "updated_at": "2024-07-25T11:45:00Z"
+  },
+  {
+    "id": 243,
+    "name": "NLP Team",
+    "description": "Natural language processing",
+    "permissions": [2151, 2152, 2153, 2154],
+    "created_at": "2024-01-14T11:00:00Z",
+    "updated_at": "2024-01-14T11:00:00Z"
+  },
+  {
+    "id": 244,
+    "name": "Computer Vision",
+    "description": "Computer vision team",
+    "permissions": [2161, 2162, 2163, 2164],
+    "created_at": "2024-01-14T11:30:00Z",
+    "updated_at": "2024-08-12T13:30:00Z"
+  },
+  {
+    "id": 245,
+    "name": "OCR Team",
+    "description": "Optical character recognition",
+    "permissions": [2171, 2172, 2173, 2174],
+    "created_at": "2024-01-14T12:00:00Z",
+    "updated_at": "2024-01-14T12:00:00Z"
+  },
+  {
+    "id": 246,
+    "name": "Image Processing",
+    "description": "Image processing team",
+    "permissions": [2181, 2182, 2183, 2184],
+    "created_at": "2024-01-14T12:30:00Z",
+    "updated_at": "2024-09-15T15:45:00Z"
+  },
+  {
+    "id": 247,
+    "name": "Video Processing",
+    "description": "Video processing team",
+    "permissions": [2191, 2192, 2193, 2194],
+    "created_at": "2024-01-14T13:00:00Z",
+    "updated_at": "2024-01-14T13:00:00Z"
+  },
+  {
+    "id": 248,
+    "name": "Audio Processing",
+    "description": "Audio processing team",
+    "permissions": [2201, 2202, 2203, 2204],
+    "created_at": "2024-01-14T13:30:00Z",
+    "updated_at": "2024-02-28T10:15:00Z"
+  },
+  {
+    "id": 249,
+    "name": "Speech Recognition",
+    "description": "Speech-to-text",
+    "permissions": [2211, 2212, 2213, 2214],
+    "created_at": "2024-01-14T14:00:00Z",
+    "updated_at": "2024-01-14T14:00:00Z"
+  },
+  {
+    "id": 250,
+    "name": "Text-to-Speech",
+    "description": "TTS operations",
+    "permissions": [2221, 2222, 2223, 2224],
+    "created_at": "2024-01-14T14:30:00Z",
+    "updated_at": "2024-03-30T12:30:00Z"
+  },
+  {
+    "id": 251,
+    "name": "Recommendation Engine",
+    "description": "Recommendation systems",
+    "permissions": [2231, 2232, 2233, 2234],
+    "created_at": "2024-01-14T15:00:00Z",
+    "updated_at": "2024-01-14T15:00:00Z"
+  },
+  {
+    "id": 252,
+    "name": "Personalization",
+    "description": "User personalization",
+    "permissions": [2241, 2242, 2243, 2244],
+    "created_at": "2024-01-14T15:30:00Z",
+    "updated_at": "2024-04-18T14:45:00Z"
+  },
+  {
+    "id": 253,
+    "name": "A/B Testing",
+    "description": "Experimentation platform",
+    "permissions": [2251, 2252, 2253, 2254],
+    "created_at": "2024-01-14T16:00:00Z",
+    "updated_at": "2024-01-14T16:00:00Z"
+  },
+  {
+    "id": 254,
+    "name": "Feature Flags",
+    "description": "Feature flag management",
+    "permissions": [2261, 2262, 2263, 2264],
+    "created_at": "2024-01-14T16:30:00Z",
+    "updated_at": "2024-05-25T16:00:00Z"
+  },
+  {
+    "id": 255,
+    "name": "Experimentation",
+    "description": "Product experimentation",
+    "permissions": [2251, 2252, 2271, 2272],
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": 256,
+    "name": "Growth Team",
+    "description": "Growth engineering",
+    "permissions": [2281, 2282, 2283, 2284],
+    "created_at": "2024-01-15T08:30:00Z",
+    "updated_at": "2024-06-30T09:30:00Z"
+  },
+  {
+    "id": 257,
+    "name": "User Acquisition",
+    "description": "User acquisition team",
+    "permissions": [41, 42, 2291, 2292],
+    "created_at": "2024-01-15T09:00:00Z",
+    "updated_at": "2024-01-15T09:00:00Z"
+  },
+  {
+    "id": 258,
+    "name": "Retention Team",
+    "description": "User retention",
+    "permissions": [2301, 2302, 2303, 2304],
+    "created_at": "2024-01-15T09:30:00Z",
+    "updated_at": "2024-07-15T11:15:00Z"
+  },
+  {
+    "id": 259,
+    "name": "Engagement Team",
+    "description": "User engagement",
+    "permissions": [2311, 2312, 2313, 2314],
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": 260,
+    "name": "Activation Team",
+    "description": "User activation",
+    "permissions": [2321, 2322, 2323, 2324],
+    "created_at": "2024-01-15T10:30:00Z",
+    "updated_at": "2024-08-20T13:45:00Z"
+  },
+  {
+    "id": 261,
+    "name": "Monetization",
+    "description": "Revenue optimization",
+    "permissions": [2331, 2332, 2333, 2334],
+    "created_at": "2024-01-15T11:00:00Z",
+    "updated_at": "2024-01-15T11:00:00Z"
+  },
+  {
+    "id": 262,
+    "name": "Subscription Management",
+    "description": "Subscription operations",
+    "permissions": [2341, 2342, 2343, 2344],
+    "created_at": "2024-01-15T11:30:00Z",
+    "updated_at": "2024-09-25T15:15:00Z"
+  },
+  {
+    "id": 263,
+    "name": "Licensing Team",
+    "description": "License management",
+    "permissions": [991, 992, 2351, 2352],
+    "created_at": "2024-01-15T12:00:00Z",
+    "updated_at": "2024-01-15T12:00:00Z"
+  },
+  {
+    "id": 264,
+    "name": "Entitlement Management",
+    "description": "User entitlements",
+    "permissions": [2361, 2362, 2363, 2364],
+    "created_at": "2024-01-15T12:30:00Z",
+    "updated_at": "2024-02-22T10:45:00Z"
+  },
+  {
+    "id": 265,
+    "name": "Quota Management",
+    "description": "Usage quota management",
+    "permissions": [2371, 2372, 2373, 2374],
+    "created_at": "2024-01-15T13:00:00Z",
+    "updated_at": "2024-01-15T13:00:00Z"
+  },
+  {
+    "id": 266,
+    "name": "Metering Team",
+    "description": "Usage metering",
+    "permissions": [2381, 2382, 2383, 2384],
+    "created_at": "2024-01-15T13:30:00Z",
+    "updated_at": "2024-03-28T12:15:00Z"
+  },
+  {
+    "id": 267,
+    "name": "Invoice Management",
+    "description": "Invoice operations",
+    "permissions": [1261, 1262, 2391, 2392],
+    "created_at": "2024-01-15T14:00:00Z",
+    "updated_at": "2024-01-15T14:00:00Z"
+  },
+  {
+    "id": 268,
+    "name": "Payment Processing",
+    "description": "Payment gateway operations",
+    "permissions": [2401, 2402, 2403, 2404],
+    "created_at": "2024-01-15T14:30:00Z",
+    "updated_at": "2024-04-25T14:30:00Z"
+  },
+  {
+    "id": 269,
+    "name": "Refund Team",
+    "description": "Refund processing",
+    "permissions": [2411, 2412, 2413, 2414],
+    "created_at": "2024-01-15T15:00:00Z",
+    "updated_at": "2024-01-15T15:00:00Z"
+  },
+  {
+    "id": 270,
+    "name": "Chargeback Team",
+    "description": "Chargeback management",
+    "permissions": [2421, 2422, 2423, 2424],
+    "created_at": "2024-01-15T15:30:00Z",
+    "updated_at": "2024-05-30T16:45:00Z"
+  },
+  {
+    "id": 271,
+    "name": "Fraud Prevention",
+    "description": "Fraud detection and prevention",
+    "permissions": [2431, 2432, 2433, 2434],
+    "created_at": "2024-01-15T16:00:00Z",
+    "updated_at": "2024-01-15T16:00:00Z"
+  },
+  {
+    "id": 272,
+    "name": "AML Team",
+    "description": "Anti-money laundering",
+    "permissions": [2441, 2442, 2443, 2444],
+    "created_at": "2024-01-15T16:30:00Z",
+    "updated_at": "2024-06-18T09:45:00Z"
+  },
+  {
+    "id": 273,
+    "name": "KYC Team",
+    "description": "Know your customer",
+    "permissions": [2451, 2452, 2453, 2454],
+    "created_at": "2024-01-16T08:00:00Z",
+    "updated_at": "2024-01-16T08:00:00Z"
+  },
+  {
+    "id": 274,
+    "name": "Transaction Monitoring",
+    "description": "Transaction monitoring",
+    "permissions": [2461, 2462, 2463, 2464],
+    "created_at": "2024-01-16T08:30:00Z",
+    "updated_at": "2024-07-25T11:30:00Z"
+  },
+  {
+    "id": 275,
+    "name": "Reconciliation",
+    "description": "Financial reconciliation",
+    "permissions": [51, 52, 2471, 2472],
+    "created_at": "2024-01-16T09:00:00Z",
+    "updated_at": "2024-01-16T09:00:00Z"
+  },
+  {
+    "id": 276,
+    "name": "Reporting Team",
+    "description": "Report generation",
+    "permissions": [121, 122, 2481, 2482],
+    "created_at": "2024-01-16T09:30:00Z",
+    "updated_at": "2024-08-12T13:15:00Z"
+  },
+  {
+    "id": 277,
+    "name": "Dashboard Team",
+    "description": "Dashboard development",
+    "permissions": [2491, 2492, 2493, 2494],
+    "created_at": "2024-01-16T10:00:00Z",
+    "updated_at": "2024-01-16T10:00:00Z"
+  },
+  {
+    "id": 278,
+    "name": "Visualization Team",
+    "description": "Data visualization",
+    "permissions": [121, 122, 2491, 2492],
+    "created_at": "2024-01-16T10:30:00Z",
+    "updated_at": "2024-09-15T15:45:00Z"
+  },
+  {
+    "id": 279,
+    "name": "Export Team",
+    "description": "Data export operations",
+    "permissions": [10, 2501, 2502, 2503],
+    "created_at": "2024-01-16T11:00:00Z",
+    "updated_at": "2024-01-16T11:00:00Z"
+  },
+  {
+    "id": 280,
+    "name": "Import Team",
+    "description": "Data import operations",
+    "permissions": [2511, 2512, 2513, 2514],
+    "created_at": "2024-01-16T11:30:00Z",
+    "updated_at": "2024-02-28T10:30:00Z"
+  },
+  {
+    "id": 281,
+    "name": "Migration Team",
+    "description": "Data migration",
+    "permissions": [2521, 2522, 2523, 2524],
+    "created_at": "2024-01-16T12:00:00Z",
+    "updated_at": "2024-01-16T12:00:00Z"
+  },
+  {
+    "id": 282,
+    "name": "Synchronization",
+    "description": "Data sync operations",
+    "permissions": [2531, 2532, 2533, 2534],
+    "created_at": "2024-01-16T12:30:00Z",
+    "updated_at": "2024-03-30T12:45:00Z"
+  },
+  {
+    "id": 283,
+    "name": "Transformation Team",
+    "description": "Data transformation",
+    "permissions": [2541, 2542, 2543, 2544],
+    "created_at": "2024-01-16T13:00:00Z",
+    "updated_at": "2024-01-16T13:00:00Z"
+  },
+  {
+    "id": 284,
+    "name": "Validation Team",
+    "description": "Data validation",
+    "permissions": [2551, 2552, 2553, 2554],
+    "created_at": "2024-01-16T13:30:00Z",
+    "updated_at": "2024-04-18T14:15:00Z"
+  },
+  {
+    "id": 285,
+    "name": "Cleansing Team",
+    "description": "Data cleansing",
+    "permissions": [2561, 2562, 2563, 2564],
+    "created_at": "2024-01-16T14:00:00Z",
+    "updated_at": "2024-01-16T14:00:00Z"
+  },
+  {
+    "id": 286,
+    "name": "Enrichment Team",
+    "description": "Data enrichment",
+    "permissions": [2571, 2572, 2573, 2574],
+    "created_at": "2024-01-16T14:30:00Z",
+    "updated_at": "2024-05-25T16:30:00Z"
+  },
+  {
+    "id": 287,
+    "name": "Deduplication",
+    "description": "Data deduplication",
+    "permissions": [2581, 2582, 2583, 2584],
+    "created_at": "2024-01-16T15:00:00Z",
+    "updated_at": "2024-01-16T15:00:00Z"
+  },
+  {
+    "id": 288,
+    "name": "Archiving Team",
+    "description": "Data archiving",
+    "permissions": [2591, 2592, 2593, 2594],
+    "created_at": "2024-01-16T15:30:00Z",
+    "updated_at": "2024-06-30T09:15:00Z"
+  },
+  {
+    "id": 289,
+    "name": "Retention Management",
+    "description": "Data retention policy",
+    "permissions": [2601, 2602, 2603, 2604],
+    "created_at": "2024-01-16T16:00:00Z",
+    "updated_at": "2024-01-16T16:00:00Z"
+  },
+  {
+    "id": 290,
+    "name": "Deletion Team",
+    "description": "Data deletion operations",
+    "permissions": [2611, 2612, 2613, 2614],
+    "created_at": "2024-01-16T16:30:00Z",
+    "updated_at": "2024-07-15T11:45:00Z"
+  },
+  {
+    "id": 291,
+    "name": "Anonymization",
+    "description": "Data anonymization",
+    "permissions": [2621, 2622, 2623, 2624],
+    "created_at": "2024-01-17T08:00:00Z",
+    "updated_at": "2024-01-17T08:00:00Z"
+  },
+  {
+    "id": 292,
+    "name": "Pseudonymization",
+    "description": "Data pseudonymization",
+    "permissions": [2631, 2632, 2633, 2634],
+    "created_at": "2024-01-17T08:30:00Z",
+    "updated_at": "2024-08-20T13:30:00Z"
+  },
+  {
+    "id": 293,
+    "name": "Masking Team",
+    "description": "Data masking",
+    "permissions": [2641, 2642, 2643, 2644],
+    "created_at": "2024-01-17T09:00:00Z",
+    "updated_at": "2024-01-17T09:00:00Z"
+  },
+  {
+    "id": 294,
+    "name": "Tokenization Team",
+    "description": "Data tokenization",
+    "permissions": [2651, 2652, 2653, 2654],
+    "created_at": "2024-01-17T09:30:00Z",
+    "updated_at": "2024-09-25T15:45:00Z"
+  },
+  {
+    "id": 295,
+    "name": "Redaction Team",
+    "description": "Document redaction",
+    "permissions": [2661, 2662, 2663, 2664],
+    "created_at": "2024-01-17T10:00:00Z",
+    "updated_at": "2024-01-17T10:00:00Z"
+  },
+  {
+    "id": 296,
+    "name": "Classification Team",
+    "description": "Data classification",
+    "permissions": [2671, 2672, 2673, 2674],
+    "created_at": "2024-01-17T10:30:00Z",
+    "updated_at": "2024-02-28T10:15:00Z"
+  },
+  {
+    "id": 297,
+    "name": "Labeling Team",
+    "description": "Data labeling",
+    "permissions": [2681, 2682, 2683, 2684],
+    "created_at": "2024-01-17T11:00:00Z",
+    "updated_at": "2024-01-17T11:00:00Z"
+  },
+  {
+    "id": 298,
+    "name": "Annotation Team",
+    "description": "Data annotation",
+    "permissions": [2691, 2692, 2693, 2694],
+    "created_at": "2024-01-17T11:30:00Z",
+    "updated_at": "2024-03-30T12:30:00Z"
+  },
+  {
+    "id": 299,
+    "name": "Tagging Team",
+    "description": "Content tagging",
+    "permissions": [2701, 2702, 2703, 2704],
+    "created_at": "2024-01-17T12:00:00Z",
+    "updated_at": "2024-01-17T12:00:00Z"
+  },
+  {
+    "id": 300,
+    "name": "Taxonomy Team",
+    "description": "Taxonomy management",
+    "permissions": [2711, 2712, 2713, 2714],
+    "created_at": "2024-01-17T12:30:00Z",
+    "updated_at": "2024-04-18T14:45:00Z"
+  },
+  {
+    "id": 301,
+    "name": "Ontology Team",
+    "description": "Ontology development",
+    "permissions": [2721, 2722, 2723, 2724],
+    "created_at": "2024-01-17T13:00:00Z",
+    "updated_at": "2024-01-17T13:00:00Z"
+  },
+  {
+    "id": 302,
+    "name": "Search Team",
+    "description": "Search functionality",
+    "permissions": [2731, 2732, 2733, 2734],
+    "created_at": "2024-01-17T13:30:00Z",
+    "updated_at": "2024-05-25T16:15:00Z"
+  },
+  {
+    "id": 303,
+    "name": "Indexing Team",
+    "description": "Search indexing",
+    "permissions": [2741, 2742, 2743, 2744],
+    "created_at": "2024-01-17T14:00:00Z",
+    "updated_at": "2024-01-17T14:00:00Z"
+  },
+  {
+    "id": 304,
+    "name": "Ranking Team",
+    "description": "Search ranking algorithms",
+    "permissions": [2751, 2752, 2753, 2754],
+    "created_at": "2024-01-17T14:30:00Z",
+    "updated_at": "2024-06-30T09:30:00Z"
+  },
+  {
+    "id": 305,
+    "name": "Relevance Team",
+    "description": "Search relevance",
+    "permissions": [2761, 2762, 2763, 2764],
+    "created_at": "2024-01-17T15:00:00Z",
+    "updated_at": "2024-01-17T15:00:00Z"
+  },
+  {
+    "id": 306,
+    "name": "Query Understanding",
+    "description": "Query interpretation",
+    "permissions": [2771, 2772, 2773, 2774],
+    "created_at": "2024-01-17T15:30:00Z",
+    "updated_at": "2024-07-15T11:15:00Z"
+  },
+  {
+    "id": 307,
+    "name": "Autocomplete Team",
+    "description": "Search autocomplete",
+    "permissions": [2781, 2782, 2783, 2784],
+    "created_at": "2024-01-17T16:00:00Z",
+    "updated_at": "2024-01-17T16:00:00Z"
+  },
+  {
+    "id": 308,
+    "name": "Spelling Correction",
+    "description": "Search spell check",
+    "permissions": [2791, 2792, 2793, 2794],
+    "created_at": "2024-01-17T16:30:00Z",
+    "updated_at": "2024-08-20T13:45:00Z"
+  },
+  {
+    "id": 309,
+    "name": "Faceted Search",
+    "description": "Faceted navigation",
+    "permissions": [2801, 2802, 2803, 2804],
+    "created_at": "2024-01-18T08:00:00Z",
+    "updated_at": "2024-01-18T08:00:00Z"
+  },
+  {
+    "id": 310,
+    "name": "Filter Management",
+    "description": "Search filters",
+    "permissions": [2811, 2812, 2813, 2814],
+    "created_at": "2024-01-18T08:30:00Z",
+    "updated_at": "2024-09-25T15:20:00Z"
+  },
+  {
+    "id": 311,
+    "name": "Sort Management",
+    "description": "Result sorting",
+    "permissions": [2821, 2822, 2823, 2824],
+    "created_at": "2024-01-18T09:00:00Z",
+    "updated_at": "2024-01-18T09:00:00Z"
+  },
+  {
+    "id": 312,
+    "name": "Pagination Team",
+    "description": "Results pagination",
+    "permissions": [2831, 2832, 2833, 2834],
+    "created_at": "2024-01-18T09:30:00Z",
+    "updated_at": "2024-02-22T10:45:00Z"
+  },
+  {
+    "id": 313,
+    "name": "Infinite Scroll",
+    "description": "Infinite scroll implementation",
+    "permissions": [2841, 2842, 2843, 2844],
+    "created_at": "2024-01-18T10:00:00Z",
+    "updated_at": "2024-01-18T10:00:00Z"
+  },
+  {
+    "id": 314,
+    "name": "Lazy Loading",
+    "description": "Lazy load operations",
+    "permissions": [2851, 2852, 2853, 2854],
+    "created_at": "2024-01-18T10:30:00Z",
+    "updated_at": "2024-03-28T12:15:00Z"
+  },
+  {
+    "id": 315,
+    "name": "Image Optimization",
+    "description": "Image optimization",
+    "permissions": [2861, 2862, 2863, 2864],
+    "created_at": "2024-01-18T11:00:00Z",
+    "updated_at": "2024-01-18T11:00:00Z"
+  },
+  {
+    "id": 316,
+    "name": "Video Optimization",
+    "description": "Video optimization",
+    "permissions": [2871, 2872, 2873, 2874],
+    "created_at": "2024-01-18T11:30:00Z",
+    "updated_at": "2024-04-25T14:30:00Z"
+  },
+  {
+    "id": 317,
+    "name": "Asset Optimization",
+    "description": "Asset optimization",
+    "permissions": [2881, 2882, 2883, 2884],
+    "created_at": "2024-01-18T12:00:00Z",
+    "updated_at": "2024-01-18T12:00:00Z"
+  },
+  {
+    "id": 318,
+    "name": "Minification",
+    "description": "Code minification",
+    "permissions": [2891, 2892, 2893, 2894],
+    "created_at": "2024-01-18T12:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 319,
+    "name": "Bundling Team",
+    "description": "Asset bundling",
+    "permissions": [2901, 2902, 2903, 2904],
+    "created_at": "2024-01-18T13:00:00Z",
+    "updated_at": "2024-01-18T13:00:00Z"
+  },
+  {
+    "id": 320,
+    "name": "Compression Team",
+    "description": "Data compression",
+    "permissions": [2911, 2912, 2913, 2914],
+    "created_at": "2024-01-18T13:30:00Z",
+    "updated_at": "2024-06-18T09:45:00Z"
+  },
+  {
+    "id": 321,
+    "name": "Decompression Team",
+    "description": "Data decompression",
+    "permissions": [2921, 2922, 2923, 2924],
+    "created_at": "2024-01-18T14:00:00Z",
+    "updated_at": "2024-01-18T14:00:00Z"
+  },
+  {
+    "id": 322,
+    "name": "Code Splitting",
+    "description": "JavaScript code splitting",
+    "permissions": [2931, 2932, 2933, 2934],
+    "created_at": "2024-01-18T14:30:00Z",
+    "updated_at": "2024-07-25T11:30:00Z"
+  },
+  {
+    "id": 323,
+    "name": "Tree Shaking",
+    "description": "Dead code elimination",
+    "permissions": [2941, 2942, 2943, 2944],
+    "created_at": "2024-01-18T15:00:00Z",
+    "updated_at": "2024-01-18T15:00:00Z"
+  },
+  {
+    "id": 324,
+    "name": "Build Team",
+    "description": "Build automation",
+    "permissions": [2951, 2952, 2953, 2954],
+    "created_at": "2024-01-18T15:30:00Z",
+    "updated_at": "2024-08-12T13:15:00Z"
+  },
+  {
+    "id": 325,
+    "name": "Compile Team",
+    "description": "Code compilation",
+    "permissions": [2961, 2962, 2963, 2964],
+    "created_at": "2024-01-18T16:00:00Z",
+    "updated_at": "2024-01-18T16:00:00Z"
+  },
+  {
+    "id": 326,
+    "name": "Transpilation",
+    "description": "Code transpilation",
+    "permissions": [2971, 2972, 2973, 2974],
+    "created_at": "2024-01-18T16:30:00Z",
+    "updated_at": "2024-09-15T15:30:00Z"
+  },
+  {
+    "id": 327,
+    "name": "Linting Team",
+    "description": "Code linting",
+    "permissions": [2981, 2982, 2983, 2984],
+    "created_at": "2024-01-19T08:00:00Z",
+    "updated_at": "2024-01-19T08:00:00Z"
+  },
+  {
+    "id": 328,
+    "name": "Formatting Team",
+    "description": "Code formatting",
+    "permissions": [2991, 2992, 2993, 2994],
+    "created_at": "2024-01-19T08:30:00Z",
+    "updated_at": "2024-02-28T10:30:00Z"
+  },
+  {
+    "id": 329,
+    "name": "Static Analysis",
+    "description": "Static code analysis",
+    "permissions": [3001, 3002, 3003, 3004],
+    "created_at": "2024-01-19T09:00:00Z",
+    "updated_at": "2024-01-19T09:00:00Z"
+  },
+  {
+    "id": 330,
+    "name": "Code Review",
+    "description": "Code review process",
+    "permissions": [3011, 3012, 3013, 3014],
+    "created_at": "2024-01-19T09:30:00Z",
+    "updated_at": "2024-03-30T12:45:00Z"
+  },
+  {
+    "id": 331,
+    "name": "Peer Review",
+    "description": "Peer review system",
+    "permissions": [3021, 3022, 3023, 3024],
+    "created_at": "2024-01-19T10:00:00Z",
+    "updated_at": "2024-01-19T10:00:00Z"
+  },
+  {
+    "id": 332,
+    "name": "Code Quality",
+    "description": "Code quality metrics",
+    "permissions": [3031, 3032, 3033, 3034],
+    "created_at": "2024-01-19T10:30:00Z",
+    "updated_at": "2024-04-18T14:15:00Z"
+  },
+  {
+    "id": 333,
+    "name": "Technical Debt",
+    "description": "Technical debt management",
+    "permissions": [3041, 3042, 3043, 3044],
+    "created_at": "2024-01-19T11:00:00Z",
+    "updated_at": "2024-01-19T11:00:00Z"
+  },
+  {
+    "id": 334,
+    "name": "Refactoring Team",
+    "description": "Code refactoring",
+    "permissions": [3051, 3052, 3053, 3054],
+    "created_at": "2024-01-19T11:30:00Z",
+    "updated_at": "2024-05-25T16:45:00Z"
+  },
+  {
+    "id": 335,
+    "name": "Legacy Modernization",
+    "description": "Legacy system modernization",
+    "permissions": [3061, 3062, 3063, 3064],
+    "created_at": "2024-01-19T12:00:00Z",
+    "updated_at": "2024-01-19T12:00:00Z"
+  },
+  {
+    "id": 336,
+    "name": "Version Control",
+    "description": "VCS management",
+    "permissions": [3071, 3072, 3073, 3074],
+    "created_at": "2024-01-19T12:30:00Z",
+    "updated_at": "2024-06-30T09:15:00Z"
+  },
+  {
+    "id": 337,
+    "name": "Branch Management",
+    "description": "Git branch management",
+    "permissions": [3081, 3082, 3083, 3084],
+    "created_at": "2024-01-19T13:00:00Z",
+    "updated_at": "2024-01-19T13:00:00Z"
+  },
+  {
+    "id": 338,
+    "name": "Merge Management",
+    "description": "Code merge operations",
+    "permissions": [3091, 3092, 3093, 3094],
+    "created_at": "2024-01-19T13:30:00Z",
+    "updated_at": "2024-07-15T11:45:00Z"
+  },
+  {
+    "id": 339,
+    "name": "Conflict Resolution",
+    "description": "Merge conflict resolution",
+    "permissions": [3101, 3102, 3103, 3104],
+    "created_at": "2024-01-19T14:00:00Z",
+    "updated_at": "2024-01-19T14:00:00Z"
+  },
+  {
+    "id": 340,
+    "name": "Repository Management",
+    "description": "Code repository management",
+    "permissions": [3111, 3112, 3113, 3114],
+    "created_at": "2024-01-19T14:30:00Z",
+    "updated_at": "2024-08-20T13:30:00Z"
+  },
+  {
+    "id": 341,
+    "name": "Package Management",
+    "description": "Package dependency management",
+    "permissions": [3121, 3122, 3123, 3124],
+    "created_at": "2024-01-19T15:00:00Z",
+    "updated_at": "2024-01-19T15:00:00Z"
+  },
+  {
+    "id": 342,
+    "name": "Dependency Management",
+    "description": "Dependency tracking",
+    "permissions": [3131, 3132, 3133, 3134],
+    "created_at": "2024-01-19T15:30:00Z",
+    "updated_at": "2024-09-25T15:45:00Z"
+  },
+  {
+    "id": 343,
+    "name": "Registry Management",
+    "description": "Package registry operations",
+    "permissions": [3141, 3142, 3143, 3144],
+    "created_at": "2024-01-19T16:00:00Z",
+    "updated_at": "2024-01-19T16:00:00Z"
+  },
+  {
+    "id": 344,
+    "name": "Artifact Repository",
+    "description": "Build artifact storage",
+    "permissions": [3151, 3152, 3153, 3154],
+    "created_at": "2024-01-19T16:30:00Z",
+    "updated_at": "2024-02-22T10:15:00Z"
+  },
+  {
+    "id": 345,
+    "name": "Binary Management",
+    "description": "Binary artifact management",
+    "permissions": [3161, 3162, 3163, 3164],
+    "created_at": "2024-01-20T08:00:00Z",
+    "updated_at": "2024-01-20T08:00:00Z"
+  },
+  {
+    "id": 346,
+    "name": "Container Registry",
+    "description": "Container image registry",
+    "permissions": [1491, 1492, 3171, 3172],
+    "created_at": "2024-01-20T08:30:00Z",
+    "updated_at": "2024-03-28T12:30:00Z"
+  },
+  {
+    "id": 347,
+    "name": "Image Scanning",
+    "description": "Container image scanning",
+    "permissions": [3181, 3182, 3183, 3184],
+    "created_at": "2024-01-20T09:00:00Z",
+    "updated_at": "2024-01-20T09:00:00Z"
+  },
+  {
+    "id": 348,
+    "name": "Vulnerability Scanning",
+    "description": "Security vulnerability scanning",
+    "permissions": [1881, 1882, 3181, 3182],
+    "created_at": "2024-01-20T09:30:00Z",
+    "updated_at": "2024-04-25T14:45:00Z"
+  },
+  {
+    "id": 349,
+    "name": "License Scanning",
+    "description": "License compliance scanning",
+    "permissions": [3191, 3192, 3193, 3194],
+    "created_at": "2024-01-20T10:00:00Z",
+    "updated_at": "2024-01-20T10:00:00Z"
+  },
+  {
+    "id": 350,
+    "name": "Secret Scanning",
+    "description": "Secret detection in code",
+    "permissions": [3201, 3202, 3203, 3204],
+    "created_at": "2024-01-20T10:30:00Z",
+    "updated_at": "2024-05-30T16:30:00Z"
+  },
+  {
+    "id": 351,
+    "name": "Secrets Management",
+    "description": "Secret vault management",
+    "permissions": [3211, 3212, 3213, 3214],
+    "created_at": "2024-01-20T11:00:00Z",
+    "updated_at": "2024-01-20T11:00:00Z"
+  },
+  {
+    "id": 352,
+    "name": "Credential Management",
+    "description": "Credential storage",
+    "permissions": [3221, 3222, 3223, 3224],
+    "created_at": "2024-01-20T11:30:00Z",
+    "updated_at": "2024-06-18T09:30:00Z"
+  },
+  {
+    "id": 353,
+    "name": "Token Management",
+    "description": "API token management",
+    "permissions": [3231, 3232, 3233, 3234],
+    "created_at": "2024-01-20T12:00:00Z",
+    "updated_at": "2024-01-20T12:00:00Z"
+  },
+  {
+    "id": 354,
+    "name": "API Key Management",
+    "description": "API key operations",
+    "permissions": [3241, 3242, 3243, 3244],
+    "created_at": "2024-01-20T12:30:00Z",
+    "updated_at": "2024-07-25T11:15:00Z"
+  },
+  {
+    "id": 355,
+    "name": "OAuth Management",
+    "description": "OAuth operations",
+    "permissions": [3251, 3252, 3253, 3254],
+    "created_at": "2024-01-20T13:00:00Z",
+    "updated_at": "2024-01-20T13:00:00Z"
+  },
+  {
+    "id": 356,
+    "name": "SAML Management",
+    "description": "SAML operations",
+    "permissions": [3261, 3262, 3263, 3264],
+    "created_at": "2024-01-20T13:30:00Z",
+    "updated_at": "2024-08-12T13:45:00Z"
+  },
+  {
+    "id": 357,
+    "name": "LDAP Management",
+    "description": "LDAP directory operations",
+    "permissions": [3271, 3272, 3273, 3274],
+    "created_at": "2024-01-20T14:00:00Z",
+    "updated_at": "2024-01-20T14:00:00Z"
+  },
+  {
+    "id": 358,
+    "name": "Active Directory",
+    "description": "AD operations",
+    "permissions": [3281, 3282, 3283, 3284],
+    "created_at": "2024-01-20T14:30:00Z",
+    "updated_at": "2024-09-15T15:15:00Z"
+  },
+  {
+    "id": 359,
+    "name": "Federation Services",
+    "description": "Identity federation",
+    "permissions": [3291, 3292, 3293, 3294],
+    "created_at": "2024-01-20T15:00:00Z",
+    "updated_at": "2024-01-20T15:00:00Z"
+  },
+  {
+    "id": 360,
+    "name": "Provisioning Team",
+    "description": "User provisioning",
+    "permissions": [1, 3301, 3302, 3303],
+    "created_at": "2024-01-20T15:30:00Z",
+    "updated_at": "2024-02-28T10:45:00Z"
+  },
+  {
+    "id": 361,
+    "name": "Deprovisioning",
+    "description": "User deprovisioning",
+    "permissions": [4, 3311, 3312, 3313],
+    "created_at": "2024-01-20T16:00:00Z",
+    "updated_at": "2024-01-20T16:00:00Z"
+  },
+  {
+    "id": 362,
+    "name": "Onboarding Automation",
+    "description": "Automated user onboarding",
+    "permissions": [1, 3301, 3321, 3322],
+    "created_at": "2024-01-20T16:30:00Z",
+    "updated_at": "2024-03-30T12:15:00Z"
+  },
+  {
+    "id": 363,
+    "name": "Offboarding Automation",
+    "description": "Automated user offboarding",
+    "permissions": [4, 3311, 3331, 3332],
+    "created_at": "2024-01-21T08:00:00Z",
+    "updated_at": "2024-01-21T08:00:00Z"
+  },
+  {
+    "id": 364,
+    "name": "Notification Team",
+    "description": "Notification system",
+    "permissions": [3341, 3342, 3343, 3344],
+    "created_at": "2024-01-21T08:30:00Z",
+    "updated_at": "2024-04-18T14:30:00Z"
+  },
+  {
+    "id": 365,
+    "name": "Email Team",
+    "description": "Email operations",
+    "permissions": [3351, 3352, 3353, 3354],
+    "created_at": "2024-01-21T09:00:00Z",
+    "updated_at": "2024-01-21T09:00:00Z"
+  },
+  {
+    "id": 366,
+    "name": "SMS Team",
+    "description": "SMS messaging",
+    "permissions": [3361, 3362, 3363, 3364],
+    "created_at": "2024-01-21T09:30:00Z",
+    "updated_at": "2024-05-25T16:15:00Z"
+  },
+  {
+    "id": 367,
+    "name": "Push Notifications",
+    "description": "Push notification service",
+    "permissions": [3371, 3372, 3373, 3374],
+    "created_at": "2024-01-21T10:00:00Z",
+    "updated_at": "2024-01-21T10:00:00Z"
+  },
+  {
+    "id": 368,
+    "name": "In-App Messaging",
+    "description": "In-app messages",
+    "permissions": [3381, 3382, 3383, 3384],
+    "created_at": "2024-01-21T10:30:00Z",
+    "updated_at": "2024-06-30T09:45:00Z"
+  },
+  {
+    "id": 369,
+    "name": "Webhooks Team",
+    "description": "Webhook management",
+    "permissions": [3391, 3392, 3393, 3394],
+    "created_at": "2024-01-21T11:00:00Z",
+    "updated_at": "2024-01-21T11:00:00Z"
+  },
+  {
+    "id": 370,
+    "name": "Event Management",
+    "description": "Event system management",
+    "permissions": [3401, 3402, 3403, 3404],
+    "created_at": "2024-01-21T11:30:00Z",
+    "updated_at": "2024-07-15T11:30:00Z"
+  },
+  {
+    "id": 371,
+    "name": "Calendar Integration",
+    "description": "Calendar sync operations",
+    "permissions": [3411, 3412, 3413, 3414],
+    "created_at": "2024-01-21T12:00:00Z",
+    "updated_at": "2024-01-21T12:00:00Z"
+  },
+  {
+    "id": 372,
+    "name": "Scheduling Team",
+    "description": "Appointment scheduling",
+    "permissions": [3421, 3422, 3423, 3424],
+    "created_at": "2024-01-21T12:30:00Z",
+    "updated_at": "2024-08-20T13:15:00Z"
+  },
+  {
+    "id": 373,
+    "name": "Booking Management",
+    "description": "Resource booking",
+    "permissions": [3431, 3432, 3433, 3434],
+    "created_at": "2024-01-21T13:00:00Z",
+    "updated_at": "2024-01-21T13:00:00Z"
+  },
+  {
+    "id": 374,
+    "name": "Reservation System",
+    "description": "Reservation management",
+    "permissions": [3441, 3442, 3443, 3444],
+    "created_at": "2024-01-21T13:30:00Z",
+    "updated_at": "2024-09-25T15:30:00Z"
+  },
+  {
+    "id": 375,
+    "name": "Timesheet Management",
+    "description": "Time tracking",
+    "permissions": [3451, 3452, 3453, 3454],
+    "created_at": "2024-01-21T14:00:00Z",
+    "updated_at": "2024-01-21T14:00:00Z"
+  },
+  {
+    "id": 376,
+    "name": "Attendance Tracking",
+    "description": "Employee attendance",
+    "permissions": [3461, 3462, 3463, 3464],
+    "created_at": "2024-01-21T14:30:00Z",
+    "updated_at": "2024-02-22T10:30:00Z"
+  },
+  {
+    "id": 377,
+    "name": "Leave Management",
+    "description": "Leave request management",
+    "permissions": [3471, 3472, 3473, 3474],
+    "created_at": "2024-01-21T15:00:00Z",
+    "updated_at": "2024-01-21T15:00:00Z"
+  },
+  {
+    "id": 378,
+    "name": "PTO Management",
+    "description": "Paid time off tracking",
+    "permissions": [3481, 3482, 3483, 3484],
+    "created_at": "2024-01-21T15:30:00Z",
+    "updated_at": "2024-03-28T12:45:00Z"
+  },
+  {
+    "id": 379,
+    "name": "Shift Management",
+    "description": "Work shift scheduling",
+    "permissions": [3491, 3492, 3493, 3494],
+    "created_at": "2024-01-21T16:00:00Z",
+    "updated_at": "2024-01-21T16:00:00Z"
+  },
+  {
+    "id": 380,
+    "name": "Roster Management",
+    "description": "Staff roster planning",
+    "permissions": [3501, 3502, 3503, 3504],
+    "created_at": "2024-01-21T16:30:00Z",
+    "updated_at": "2024-04-25T14:15:00Z"
+  },
+  {
+    "id": 381,
+    "name": "Capacity Management",
+    "description": "Team capacity planning",
+    "permissions": [3511, 3512, 3513, 3514],
+    "created_at": "2024-01-22T08:00:00Z",
+    "updated_at": "2024-01-22T08:00:00Z"
+  },
+  {
+    "id": 382,
+    "name": "Workload Management",
+    "description": "Workload distribution",
+    "permissions": [3521, 3522, 3523, 3524],
+    "created_at": "2024-01-22T08:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 383,
+    "name": "Task Management",
+    "description": "Task tracking",
+    "permissions": [3531, 3532, 3533, 3534],
+    "created_at": "2024-01-22T09:00:00Z",
+    "updated_at": "2024-01-22T09:00:00Z"
+  },
+  {
+    "id": 384,
+    "name": "Issue Tracking",
+    "description": "Issue management",
+    "permissions": [3541, 3542, 3543, 3544],
+    "created_at": "2024-01-22T09:30:00Z",
+    "updated_at": "2024-06-18T09:15:00Z"
+  },
+  {
+    "id": 385,
+    "name": "Bug Tracking",
+    "description": "Bug management",
+    "permissions": [3551, 3552, 3553, 3554],
+    "created_at": "2024-01-22T10:00:00Z",
+    "updated_at": "2024-01-22T10:00:00Z"
+  },
+  {
+    "id": 386,
+    "name": "Feature Requests",
+    "description": "Feature request management",
+    "permissions": [3561, 3562, 3563, 3564],
+    "created_at": "2024-01-22T10:30:00Z",
+    "updated_at": "2024-07-25T11:45:00Z"
+  },
+  {
+    "id": 387,
+    "name": "Backlog Management",
+    "description": "Product backlog",
+    "permissions": [3571, 3572, 3573, 3574],
+    "created_at": "2024-01-22T11:00:00Z",
+    "updated_at": "2024-01-22T11:00:00Z"
+  },
+  {
+    "id": 388,
+    "name": "Sprint Management",
+    "description": "Sprint planning and tracking",
+    "permissions": [3581, 3582, 3583, 3584],
+    "created_at": "2024-01-22T11:30:00Z",
+    "updated_at": "2024-08-12T13:30:00Z"
+  },
+  {
+    "id": 389,
+    "name": "Kanban Team",
+    "description": "Kanban board management",
+    "permissions": [3591, 3592, 3593, 3594],
+    "created_at": "2024-01-22T12:00:00Z",
+    "updated_at": "2024-01-22T12:00:00Z"
+  },
+  {
+    "id": 390,
+    "name": "Board Management",
+    "description": "Project board operations",
+    "permissions": [3601, 3602, 3603, 3604],
+    "created_at": "2024-01-22T12:30:00Z",
+    "updated_at": "2024-09-15T15:45:00Z"
+  },
+  {
+    "id": 391,
+    "name": "Card Management",
+    "description": "Task card operations",
+    "permissions": [3611, 3612, 3613, 3614],
+    "created_at": "2024-01-22T13:00:00Z",
+    "updated_at": "2024-01-22T13:00:00Z"
+  },
+  {
+    "id": 392,
+    "name": "Checklist Management",
+    "description": "Task checklist operations",
+    "permissions": [3621, 3622, 3623, 3624],
+    "created_at": "2024-01-22T13:30:00Z",
+    "updated_at": "2024-02-28T10:15:00Z"
+  },
+  {
+    "id": 393,
+    "name": "Comment Management",
+    "description": "Comment moderation",
+    "permissions": [3631, 3632, 3633, 3634],
+    "created_at": "2024-01-22T14:00:00Z",
+    "updated_at": "2024-01-22T14:00:00Z"
+  },
+  {
+    "id": 394,
+    "name": "Attachment Management",
+    "description": "File attachment operations",
+    "permissions": [3641, 3642, 3643, 3644],
+    "created_at": "2024-01-22T14:30:00Z",
+    "updated_at": "2024-03-30T12:30:00Z"
+  },
+  {
+    "id": 395,
+    "name": "File Storage",
+    "description": "File storage operations",
+    "permissions": [3651, 3652, 3653, 3654],
+    "created_at": "2024-01-22T15:00:00Z",
+    "updated_at": "2024-01-22T15:00:00Z"
+  },
+  {
+    "id": 396,
+    "name": "Document Management",
+    "description": "Document library management",
+    "permissions": [3661, 3662, 3663, 3664],
+    "created_at": "2024-01-22T15:30:00Z",
+    "updated_at": "2024-04-18T14:45:00Z"
+  },
+  {
+    "id": 397,
+    "name": "Version Control Docs",
+    "description": "Document versioning",
+    "permissions": [3671, 3672, 3673, 3674],
+    "created_at": "2024-01-22T16:00:00Z",
+    "updated_at": "2024-01-22T16:00:00Z"
+  },
+  {
+    "id": 398,
+    "name": "Collaboration Tools",
+    "description": "Team collaboration",
+    "permissions": [3681, 3682, 3683, 3684],
+    "created_at": "2024-01-22T16:30:00Z",
+    "updated_at": "2024-05-25T16:30:00Z"
+  },
+  {
+    "id": 399,
+    "name": "Wiki Management",
+    "description": "Internal wiki operations",
+    "permissions": [3691, 3692, 3693, 3694],
+    "created_at": "2024-01-23T08:00:00Z",
+    "updated_at": "2024-01-23T08:00:00Z"
+  },
+  {
+    "id": 400,
+    "name": "Forum Management",
+    "description": "Discussion forum operations",
+    "permissions": [3701, 3702, 3703, 3704],
+    "created_at": "2024-01-23T08:30:00Z",
+    "updated_at": "2024-06-30T09:30:00Z"
+  },
+  {
+    "id": 401,
+    "name": "Chat Operations",
+    "description": "Chat system management",
+    "permissions": [3711, 3712, 3713, 3714],
+    "created_at": "2024-01-23T09:00:00Z",
+    "updated_at": "2024-01-23T09:00:00Z"
+  },
+  {
+    "id": 402,
+    "name": "Video Conferencing",
+    "description": "Video meeting operations",
+    "permissions": [3721, 3722, 3723, 3724],
+    "created_at": "2024-01-23T09:30:00Z",
+    "updated_at": "2024-07-15T11:15:00Z"
+  },
+  {
+    "id": 403,
+    "name": "Screen Sharing",
+    "description": "Screen share management",
+    "permissions": [3731, 3732, 3733, 3734],
+    "created_at": "2024-01-23T10:00:00Z",
+    "updated_at": "2024-01-23T10:00:00Z"
+  },
+  {
+    "id": 404,
+    "name": "Recording Team",
+    "description": "Meeting recording operations",
+    "permissions": [3741, 3742, 3743, 3744],
+    "created_at": "2024-01-23T10:30:00Z",
+    "updated_at": "2024-08-20T13:45:00Z"
+  },
+  {
+    "id": 405,
+    "name": "Transcription Team",
+    "description": "Audio transcription",
+    "permissions": [3751, 3752, 3753, 3754],
+    "created_at": "2024-01-23T11:00:00Z",
+    "updated_at": "2024-01-23T11:00:00Z"
+  },
+  {
+    "id": 406,
+    "name": "Live Streaming",
+    "description": "Live stream operations",
+    "permissions": [3761, 3762, 3763, 3764],
+    "created_at": "2024-01-23T11:30:00Z",
+    "updated_at": "2024-09-25T15:20:00Z"
+  },
+  {
+    "id": 407,
+    "name": "Webinar Management",
+    "description": "Webinar operations",
+    "permissions": [3771, 3772, 3773, 3774],
+    "created_at": "2024-01-23T12:00:00Z",
+    "updated_at": "2024-01-23T12:00:00Z"
+  },
+  {
+    "id": 408,
+    "name": "Broadcast Team",
+    "description": "Broadcasting operations",
+    "permissions": [3781, 3782, 3783, 3784],
+    "created_at": "2024-01-23T12:30:00Z",
+    "updated_at": "2024-02-22T10:45:00Z"
+  },
+  {
+    "id": 409,
+    "name": "Media Management",
+    "description": "Media library operations",
+    "permissions": [3791, 3792, 3793, 3794],
+    "created_at": "2024-01-23T13:00:00Z",
+    "updated_at": "2024-01-23T13:00:00Z"
+  },
+  {
+    "id": 410,
+    "name": "Digital Assets",
+    "description": "Digital asset management",
+    "permissions": [3801, 3802, 3803, 3804],
+    "created_at": "2024-01-23T13:30:00Z",
+    "updated_at": "2024-03-28T12:15:00Z"
+  },
+  {
+    "id": 411,
+    "name": "Template Management",
+    "description": "Template operations",
+    "permissions": [3811, 3812, 3813, 3814],
+    "created_at": "2024-01-23T14:00:00Z",
+    "updated_at": "2024-01-23T14:00:00Z"
+  },
+  {
+    "id": 412,
+    "name": "Theme Management",
+    "description": "UI theme management",
+    "permissions": [3821, 3822, 3823, 3824],
+    "created_at": "2024-01-23T14:30:00Z",
+    "updated_at": "2024-04-25T14:30:00Z"
+  },
+  {
+    "id": 413,
+    "name": "Branding Team",
+    "description": "Brand asset management",
+    "permissions": [421, 422, 3831, 3832],
+    "created_at": "2024-01-23T15:00:00Z",
+    "updated_at": "2024-01-23T15:00:00Z"
+  },
+  {
+    "id": 414,
+    "name": "Style Guide",
+    "description": "Style guide management",
+    "permissions": [3841, 3842, 3843, 3844],
+    "created_at": "2024-01-23T15:30:00Z",
+    "updated_at": "2024-05-30T16:15:00Z"
+  },
+  {
+    "id": 415,
+    "name": "Component Library",
+    "description": "UI component library",
+    "permissions": [3851, 3852, 3853, 3854],
+    "created_at": "2024-01-23T16:00:00Z",
+    "updated_at": "2024-01-23T16:00:00Z"
+  },
+  {
+    "id": 416,
+    "name": "Design System",
+    "description": "Design system management",
+    "permissions": [131, 132, 3851, 3852],
+    "created_at": "2024-01-23T16:30:00Z",
+    "updated_at": "2024-06-18T09:45:00Z"
+  },
+  {
+    "id": 417,
+    "name": "Prototype Team",
+    "description": "Prototyping operations",
+    "permissions": [3861, 3862, 3863, 3864],
+    "created_at": "2024-01-24T08:00:00Z",
+    "updated_at": "2024-01-24T08:00:00Z"
+  },
+  {
+    "id": 418,
+    "name": "Wireframe Team",
+    "description": "Wireframe creation",
+    "permissions": [3871, 3872, 3873, 3874],
+    "created_at": "2024-01-24T08:30:00Z",
+    "updated_at": "2024-07-25T11:30:00Z"
+  },
+  {
+    "id": 419,
+    "name": "Mockup Team",
+    "description": "Design mockups",
+    "permissions": [3881, 3882, 3883, 3884],
+    "created_at": "2024-01-24T09:00:00Z",
+    "updated_at": "2024-01-24T09:00:00Z"
+  },
+  {
+    "id": 420,
+    "name": "User Testing",
+    "description": "User testing operations",
+    "permissions": [401, 402, 3891, 3892],
+    "created_at": "2024-01-24T09:30:00Z",
+    "updated_at": "2024-08-12T13:15:00Z"
+  },
+  {
+    "id": 421,
+    "name": "Usability Testing",
+    "description": "Usability research",
+    "permissions": [401, 402, 3901, 3902],
+    "created_at": "2024-01-24T10:00:00Z",
+    "updated_at": "2024-01-24T10:00:00Z"
+  },
+  {
+    "id": 422,
+    "name": "Beta Testing",
+    "description": "Beta program management",
+    "permissions": [3911, 3912, 3913, 3914],
+    "created_at": "2024-01-24T10:30:00Z",
+    "updated_at": "2024-09-15T15:30:00Z"
+  },
+  {
+    "id": 423,
+    "name": "Alpha Testing",
+    "description": "Alpha testing program",
+    "permissions": [3921, 3922, 3923, 3924],
+    "created_at": "2024-01-24T11:00:00Z",
+    "updated_at": "2024-01-24T11:00:00Z"
+  },
+  {
+    "id": 424,
+    "name": "Feedback Management",
+    "description": "User feedback collection",
+    "permissions": [3931, 3932, 3933, 3934],
+    "created_at": "2024-01-24T11:30:00Z",
+    "updated_at": "2024-02-28T10:30:00Z"
+  },
+  {
+    "id": 425,
+    "name": "Survey Team",
+    "description": "Survey operations",
+    "permissions": [3941, 3942, 3943, 3944],
+    "created_at": "2024-01-24T12:00:00Z",
+    "updated_at": "2024-01-24T12:00:00Z"
+  },
+  {
+    "id": 426,
+    "name": "Poll Management",
+    "description": "Polling operations",
+    "permissions": [3951, 3952, 3953, 3954],
+    "created_at": "2024-01-24T12:30:00Z",
+    "updated_at": "2024-03-30T12:45:00Z"
+  },
+  {
+    "id": 427,
+    "name": "Review Management",
+    "description": "Review collection",
+    "permissions": [3961, 3962, 3963, 3964],
+    "created_at": "2024-01-24T13:00:00Z",
+    "updated_at": "2024-01-24T13:00:00Z"
+  },
+  {
+    "id": 428,
+    "name": "Rating System",
+    "description": "Rating management",
+    "permissions": [3971, 3972, 3973, 3974],
+    "created_at": "2024-01-24T13:30:00Z",
+    "updated_at": "2024-04-18T14:15:00Z"
+  },
+  {
+    "id": 429,
+    "name": "Testimonial Team",
+    "description": "Testimonial management",
+    "permissions": [3981, 3982, 3983, 3984],
+    "created_at": "2024-01-24T14:00:00Z",
+    "updated_at": "2024-01-24T14:00:00Z"
+  },
+  {
+    "id": 430,
+    "name": "Case Study Team",
+    "description": "Case study creation",
+    "permissions": [3991, 3992, 3993, 3994],
+    "created_at": "2024-01-24T14:30:00Z",
+    "updated_at": "2024-05-25T16:45:00Z"
+  },
+  {
+    "id": 431,
+    "name": "Success Story",
+    "description": "Success story management",
+    "permissions": [4001, 4002, 4003, 4004],
+    "created_at": "2024-01-24T15:00:00Z",
+    "updated_at": "2024-01-24T15:00:00Z"
+  },
+  {
+    "id": 432,
+    "name": "Reference Program",
+    "description": "Customer reference program",
+    "permissions": [4011, 4012, 4013, 4014],
+    "created_at": "2024-01-24T15:30:00Z",
+    "updated_at": "2024-06-30T09:15:00Z"
+  },
+  {
+    "id": 433,
+    "name": "Advocacy Program",
+    "description": "Customer advocacy",
+    "permissions": [4021, 4022, 4023, 4024],
+    "created_at": "2024-01-24T16:00:00Z",
+    "updated_at": "2024-01-24T16:00:00Z"
+  },
+  {
+    "id": 434,
+    "name": "Ambassador Program",
+    "description": "Brand ambassador program",
+    "permissions": [4031, 4032, 4033, 4034],
+    "created_at": "2024-01-24T16:30:00Z",
+    "updated_at": "2024-07-15T11:45:00Z"
+  },
+  {
+    "id": 435,
+    "name": "Influencer Relations",
+    "description": "Influencer partnership",
+    "permissions": [4041, 4042, 4043, 4044],
+    "created_at": "2024-01-25T08:00:00Z",
+    "updated_at": "2024-01-25T08:00:00Z"
+  },
+  {
+    "id": 436,
+    "name": "Press Relations",
+    "description": "Media relations",
+    "permissions": [491, 492, 4051, 4052],
+    "created_at": "2024-01-25T08:30:00Z",
+    "updated_at": "2024-08-20T13:30:00Z"
+  },
+  {
+    "id": 437,
+    "name": "Media Kit",
+    "description": "Press kit management",
+    "permissions": [4061, 4062, 4063, 4064],
+    "created_at": "2024-01-25T09:00:00Z",
+    "updated_at": "2024-01-25T09:00:00Z"
+  },
+  {
+    "id": 438,
+    "name": "Press Release",
+    "description": "Press release management",
+    "permissions": [4071, 4072, 4073, 4074],
+    "created_at": "2024-01-25T09:30:00Z",
+    "updated_at": "2024-09-25T15:45:00Z"
+  },
+  {
+    "id": 439,
+    "name": "News Management",
+    "description": "News content management",
+    "permissions": [4081, 4082, 4083, 4084],
+    "created_at": "2024-01-25T10:00:00Z",
+    "updated_at": "2024-01-25T10:00:00Z"
+  },
+  {
+    "id": 440,
+    "name": "Blog Management",
+    "description": "Blog operations",
+    "permissions": [21, 22, 4091, 4092],
+    "created_at": "2024-01-25T10:30:00Z",
+    "updated_at": "2024-02-22T10:15:00Z"
+  },
+  {
+    "id": 441,
+    "name": "Article Team",
+    "description": "Article writing",
+    "permissions": [21, 22, 23, 4101],
+    "created_at": "2024-01-25T11:00:00Z",
+    "updated_at": "2024-01-25T11:00:00Z"
+  },
+  {
+    "id": 442,
+    "name": "Editorial Team",
+    "description": "Editorial management",
+    "permissions": [21, 22, 23, 25],
+    "created_at": "2024-01-25T11:30:00Z",
+    "updated_at": "2024-03-28T12:30:00Z"
+  },
+  {
+    "id": 443,
+    "name": "Copywriting",
+    "description": "Copywriting team",
+    "permissions": [4111, 4112, 4113, 4114],
+    "created_at": "2024-01-25T12:00:00Z",
+    "updated_at": "2024-01-25T12:00:00Z"
+  },
+  {
+    "id": 444,
+    "name": "Proofreading",
+    "description": "Content proofreading",
+    "permissions": [4121, 4122, 4123, 4124],
+    "created_at": "2024-01-25T12:30:00Z",
+    "updated_at": "2024-04-25T14:45:00Z"
+  },
+  {
+    "id": 445,
+    "name": "Publishing Team",
+    "description": "Content publishing",
+    "permissions": [21, 22, 4131, 4132],
+    "created_at": "2024-01-25T13:00:00Z",
+    "updated_at": "2024-01-25T13:00:00Z"
+  },
+  {
+    "id": 446,
+    "name": "Distribution Team",
+    "description": "Content distribution",
+    "permissions": [4141, 4142, 4143, 4144],
+    "created_at": "2024-01-25T13:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 447,
+    "name": "Syndication",
+    "description": "Content syndication",
+    "permissions": [4151, 4152, 4153, 4154],
+    "created_at": "2024-01-25T14:00:00Z",
+    "updated_at": "2024-01-25T14:00:00Z"
+  },
+  {
+    "id": 448,
+    "name": "RSS Management",
+    "description": "RSS feed operations",
+    "permissions": [4161, 4162, 4163, 4164],
+    "created_at": "2024-01-25T14:30:00Z",
+    "updated_at": "2024-06-18T09:30:00Z"
+  },
+  {
+    "id": 449,
+    "name": "Podcast Team",
+    "description": "Podcast production",
+    "permissions": [4171, 4172, 4173, 4174],
+    "created_at": "2024-01-25T15:00:00Z",
+    "updated_at": "2024-01-25T15:00:00Z"
+  },
+  {
+    "id": 450,
+    "name": "Video Production",
+    "description": "Video content creation",
+    "permissions": [4181, 4182, 4183, 4184],
+    "created_at": "2024-01-25T15:30:00Z",
+    "updated_at": "2024-07-25T11:15:00Z"
+  },
+  {
+    "id": 451,
+    "name": "Animation Team",
+    "description": "Animation production",
+    "permissions": [4191, 4192, 4193, 4194],
+    "created_at": "2024-01-25T16:00:00Z",
+    "updated_at": "2024-01-25T16:00:00Z"
+  },
+  {
+    "id": 452,
+    "name": "Motion Graphics",
+    "description": "Motion graphics team",
+    "permissions": [4201, 4202, 4203, 4204],
+    "created_at": "2024-01-25T16:30:00Z",
+    "updated_at": "2024-08-12T13:45:00Z"
+  },
+  {
+    "id": 453,
+    "name": "Photography Team",
+    "description": "Photography services",
+    "permissions": [4211, 4212, 4213, 4214],
+    "created_at": "2024-01-26T08:00:00Z",
+    "updated_at": "2024-01-26T08:00:00Z"
+  },
+  {
+    "id": 454,
+    "name": "Videography",
+    "description": "Video filming",
+    "permissions": [4221, 4222, 4223, 4224],
+    "created_at": "2024-01-26T08:30:00Z",
+    "updated_at": "2024-09-15T15:15:00Z"
+  },
+  {
+    "id": 455,
+    "name": "Post Production",
+    "description": "Post-production editing",
+    "permissions": [4231, 4232, 4233, 4234],
+    "created_at": "2024-01-26T09:00:00Z",
+    "updated_at": "2024-01-26T09:00:00Z"
+  },
+  {
+    "id": 456,
+    "name": "Color Grading",
+    "description": "Video color grading",
+    "permissions": [4241, 4242, 4243, 4244],
+    "created_at": "2024-01-26T09:30:00Z",
+    "updated_at": "2024-02-28T10:45:00Z"
+  },
+  {
+    "id": 457,
+    "name": "Sound Design",
+    "description": "Audio sound design",
+    "permissions": [4251, 4252, 4253, 4254],
+    "created_at": "2024-01-26T10:00:00Z",
+    "updated_at": "2024-01-26T10:00:00Z"
+  },
+  {
+    "id": 458,
+    "name": "Music Production",
+    "description": "Music creation",
+    "permissions": [4261, 4262, 4263, 4264],
+    "created_at": "2024-01-26T10:30:00Z",
+    "updated_at": "2024-03-30T12:15:00Z"
+  },
+  {
+    "id": 459,
+    "name": "Voiceover Team",
+    "description": "Voiceover production",
+    "permissions": [4271, 4272, 4273, 4274],
+    "created_at": "2024-01-26T11:00:00Z",
+    "updated_at": "2024-01-26T11:00:00Z"
+  },
+  {
+    "id": 460,
+    "name": "Subtitling",
+    "description": "Subtitle creation",
+    "permissions": [4281, 4282, 4283, 4284],
+    "created_at": "2024-01-26T11:30:00Z",
+    "updated_at": "2024-04-18T14:30:00Z"
+  },
+  {
+    "id": 461,
+    "name": "Captioning",
+    "description": "Video captioning",
+    "permissions": [4291, 4292, 4293, 4294],
+    "created_at": "2024-01-26T12:00:00Z",
+    "updated_at": "2024-01-26T12:00:00Z"
+  },
+  {
+    "id": 462,
+    "name": "Accessibility Content",
+    "description": "Accessible content creation",
+    "permissions": [1111, 1112, 4301, 4302],
+    "created_at": "2024-01-26T12:30:00Z",
+    "updated_at": "2024-05-25T16:30:00Z"
+  },
+  {
+    "id": 463,
+    "name": "Compliance Content",
+    "description": "Compliance documentation",
+    "permissions": [161, 162, 4311, 4312],
+    "created_at": "2024-01-26T13:00:00Z",
+    "updated_at": "2024-01-26T13:00:00Z"
+  },
+  {
+    "id": 464,
+    "name": "Legal Content",
+    "description": "Legal documentation",
+    "permissions": [151, 152, 4321, 4322],
+    "created_at": "2024-01-26T13:30:00Z",
+    "updated_at": "2024-06-30T09:45:00Z"
+  },
+  {
+    "id": 465,
+    "name": "Terms Management",
+    "description": "Terms and conditions",
+    "permissions": [4331, 4332, 4333, 4334],
+    "created_at": "2024-01-26T14:00:00Z",
+    "updated_at": "2024-01-26T14:00:00Z"
+  },
+  {
+    "id": 466,
+    "name": "Privacy Policy",
+    "description": "Privacy policy management",
+    "permissions": [891, 892, 4341, 4342],
+    "created_at": "2024-01-26T14:30:00Z",
+    "updated_at": "2024-07-15T11:30:00Z"
+  },
+  {
+    "id": 467,
+    "name": "Cookie Management",
+    "description": "Cookie policy operations",
+    "permissions": [4351, 4352, 4353, 4354],
+    "created_at": "2024-01-26T15:00:00Z",
+    "updated_at": "2024-01-26T15:00:00Z"
+  },
+  {
+    "id": 468,
+    "name": "Consent Management",
+    "description": "User consent tracking",
+    "permissions": [4361, 4362, 4363, 4364],
+    "created_at": "2024-01-26T15:30:00Z",
+    "updated_at": "2024-08-20T13:15:00Z"
+  },
+  {
+    "id": 469,
+    "name": "Preference Center",
+    "description": "User preference management",
+    "permissions": [4371, 4372, 4373, 4374],
+    "created_at": "2024-01-26T16:00:00Z",
+    "updated_at": "2024-01-26T16:00:00Z"
+  },
+  {
+    "id": 470,
+    "name": "Opt-in Management",
+    "description": "Subscription opt-in",
+    "permissions": [4381, 4382, 4383, 4384],
+    "created_at": "2024-01-26T16:30:00Z",
+    "updated_at": "2024-09-25T15:30:00Z"
+  },
+  {
+    "id": 471,
+    "name": "Opt-out Management",
+    "description": "Unsubscribe operations",
+    "permissions": [4391, 4392, 4393, 4394],
+    "created_at": "2024-01-27T08:00:00Z",
+    "updated_at": "2024-01-27T08:00:00Z"
+  },
+  {
+    "id": 472,
+    "name": "Suppression List",
+    "description": "Email suppression management",
+    "permissions": [4401, 4402, 4403, 4404],
+    "created_at": "2024-01-27T08:30:00Z",
+    "updated_at": "2024-02-22T10:30:00Z"
+  },
+  {
+    "id": 473,
+    "name": "Bounce Management",
+    "description": "Email bounce handling",
+    "permissions": [4411, 4412, 4413, 4414],
+    "created_at": "2024-01-27T09:00:00Z",
+    "updated_at": "2024-01-27T09:00:00Z"
+  },
+  {
+    "id": 474,
+    "name": "Spam Management",
+    "description": "Spam filtering",
+    "permissions": [4421, 4422, 4423, 4424],
+    "created_at": "2024-01-27T09:30:00Z",
+    "updated_at": "2024-03-28T12:45:00Z"
+  },
+  {
+    "id": 475,
+    "name": "Deliverability",
+    "description": "Email deliverability",
+    "permissions": [4431, 4432, 4433, 4434],
+    "created_at": "2024-01-27T10:00:00Z",
+    "updated_at": "2024-01-27T10:00:00Z"
+  },
+  {
+    "id": 476,
+    "name": "IP Reputation",
+    "description": "IP reputation management",
+    "permissions": [4441, 4442, 4443, 4444],
+    "created_at": "2024-01-27T10:30:00Z",
+    "updated_at": "2024-04-18T14:15:00Z"
+  },
+  {
+    "id": 477,
+    "name": "Domain Reputation",
+    "description": "Domain reputation tracking",
+    "permissions": [4451, 4452, 4453, 4454],
+    "created_at": "2024-01-27T11:00:00Z",
+    "updated_at": "2024-01-27T11:00:00Z"
+  },
+  {
+    "id": 478,
+    "name": "Sender Authentication",
+    "description": "Email authentication",
+    "permissions": [4461, 4462, 4463, 4464],
+    "created_at": "2024-01-27T11:30:00Z",
+    "updated_at": "2024-05-30T16:15:00Z"
+  },
+  {
+    "id": 479,
+    "name": "SPF Management",
+    "description": "SPF record management",
+    "permissions": [4471, 4472, 4473, 4474],
+    "created_at": "2024-01-27T12:00:00Z",
+    "updated_at": "2024-01-27T12:00:00Z"
+  },
+  {
+    "id": 480,
+    "name": "DKIM Management",
+    "description": "DKIM configuration",
+    "permissions": [4481, 4482, 4483, 4484],
+    "created_at": "2024-01-27T12:30:00Z",
+    "updated_at": "2024-06-18T09:15:00Z"
+  },
+  {
+    "id": 481,
+    "name": "DMARC Management",
+    "description": "DMARC policy management",
+    "permissions": [4491, 4492, 4493, 4494],
+    "created_at": "2024-01-27T13:00:00Z",
+    "updated_at": "2024-01-27T13:00:00Z"
+  },
+  {
+    "id": 482,
+    "name": "Email Tracking",
+    "description": "Email analytics tracking",
+    "permissions": [4501, 4502, 4503, 4504],
+    "created_at": "2024-01-27T13:30:00Z",
+    "updated_at": "2024-07-25T11:45:00Z"
+  },
+  {
+    "id": 483,
+    "name": "Open Rate Analysis",
+    "description": "Email open tracking",
+    "permissions": [4511, 4512, 4513, 4514],
+    "created_at": "2024-01-27T14:00:00Z",
+    "updated_at": "2024-01-27T14:00:00Z"
+  },
+  {
+    "id": 484,
+    "name": "Click Tracking",
+    "description": "Email click tracking",
+    "permissions": [4521, 4522, 4523, 4524],
+    "created_at": "2024-01-27T14:30:00Z",
+    "updated_at": "2024-08-12T13:30:00Z"
+  },
+  {
+    "id": 485,
+    "name": "Conversion Tracking",
+    "description": "Conversion analytics",
+    "permissions": [4531, 4532, 4533, 4534],
+    "created_at": "2024-01-27T15:00:00Z",
+    "updated_at": "2024-01-27T15:00:00Z"
+  },
+  {
+    "id": 486,
+    "name": "Attribution",
+    "description": "Marketing attribution",
+    "permissions": [4541, 4542, 4543, 4544],
+    "created_at": "2024-01-27T15:30:00Z",
+    "updated_at": "2024-09-15T15:45:00Z"
+  },
+  {
+    "id": 487,
+    "name": "Funnel Analysis",
+    "description": "Conversion funnel analysis",
+    "permissions": [121, 122, 4551, 4552],
+    "created_at": "2024-01-27T16:00:00Z",
+    "updated_at": "2024-01-27T16:00:00Z"
+  },
+  {
+    "id": 488,
+    "name": "Cohort Analysis",
+    "description": "User cohort analysis",
+    "permissions": [121, 122, 4561, 4562],
+    "created_at": "2024-01-27T16:30:00Z",
+    "updated_at": "2024-02-28T10:15:00Z"
+  },
+  {
+    "id": 489,
+    "name": "Retention Analysis",
+    "description": "Retention metrics",
+    "permissions": [2301, 2302, 4571, 4572],
+    "created_at": "2024-01-28T08:00:00Z",
+    "updated_at": "2024-01-28T08:00:00Z"
+  },
+  {
+    "id": 490,
+    "name": "Churn Analysis",
+    "description": "Churn rate analysis",
+    "permissions": [4581, 4582, 4583, 4584],
+    "created_at": "2024-01-28T08:30:00Z",
+    "updated_at": "2024-03-30T12:30:00Z"
+  },
+  {
+    "id": 491,
+    "name": "Lifetime Value",
+    "description": "Customer LTV analysis",
+    "permissions": [4591, 4592, 4593, 4594],
+    "created_at": "2024-01-28T09:00:00Z",
+    "updated_at": "2024-01-28T09:00:00Z"
+  },
+  {
+    "id": 492,
+    "name": "CAC Analysis",
+    "description": "Customer acquisition cost",
+    "permissions": [4601, 4602, 4603, 4604],
+    "created_at": "2024-01-28T09:30:00Z",
+    "updated_at": "2024-04-25T14:45:00Z"
+  },
+  {
+    "id": 493,
+    "name": "ROI Analysis",
+    "description": "Return on investment analysis",
+    "permissions": [121, 122, 4611, 4612],
+    "created_at": "2024-01-28T10:00:00Z",
+    "updated_at": "2024-01-28T10:00:00Z"
+  },
+  {
+    "id": 494,
+    "name": "Performance Marketing",
+    "description": "Performance marketing team",
+    "permissions": [41, 42, 4621, 4622],
+    "created_at": "2024-01-28T10:30:00Z",
+    "updated_at": "2024-05-30T16:00:00Z"
+  },
+  {
+    "id": 495,
+    "name": "Paid Acquisition",
+    "description": "Paid advertising",
+    "permissions": [4631, 4632, 4633, 4634],
+    "created_at": "2024-01-28T11:00:00Z",
+    "updated_at": "2024-01-28T11:00:00Z"
+  },
+  {
+    "id": 496,
+    "name": "Ad Operations",
+    "description": "Ad campaign operations",
+    "permissions": [4641, 4642, 4643, 4644],
+    "created_at": "2024-01-28T11:30:00Z",
+    "updated_at": "2024-06-30T09:30:00Z"
+  },
+  {
+    "id": 497,
+    "name": "Display Advertising",
+    "description": "Display ad management",
+    "permissions": [4651, 4652, 4653, 4654],
+    "created_at": "2024-01-28T12:00:00Z",
+    "updated_at": "2024-01-28T12:00:00Z"
+  },
+  {
+    "id": 498,
+    "name": "Programmatic",
+    "description": "Programmatic advertising",
+    "permissions": [4661, 4662, 4663, 4664],
+    "created_at": "2024-01-28T12:30:00Z",
+    "updated_at": "2024-07-15T11:15:00Z"
+  },
+  {
+    "id": 499,
+    "name": "Retargeting",
+    "description": "Retargeting campaigns",
+    "permissions": [4671, 4672, 4673, 4674],
+    "created_at": "2024-01-28T13:00:00Z",
+    "updated_at": "2024-01-28T13:00:00Z"
+  },
+  {
+    "id": 500,
+    "name": "Native Advertising",
+    "description": "Native ad campaigns",
+    "permissions": [4681, 4682, 4683, 4684],
+    "created_at": "2024-01-28T13:30:00Z",
+    "updated_at": "2024-08-20T13:45:00Z"
+  }
+]
